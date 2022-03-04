@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="66" viewBox="0 0 190 66">
+  <g id="Grupo_78876" data-name="Grupo 78876" transform="translate(-1020 -5379.056)">
+    <path id="Trazado_156981" data-name="Trazado 156981" d="M6.786,0H183.214C186.962,0,190,2.239,190,5V35c0,2.761-3.038,5-6.786,5H6.786C3.038,40,0,37.761,0,35V5C0,2.239,3.038,0,6.786,0Z" transform="translate(1020 5395.181)" fill="#f6d4b9"/>
+    <text id="Descargar" transform="translate(1045 5420.181)" fill="#12263f" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">Descargar</tspan></text>
+    <rect id="Rectángulo_8095" data-name="Rectángulo 8095" width="85" height="66" transform="translate(1125 5379.056)" fill="none"/>
+    <g id="Grupo_78495" data-name="Grupo 78495" transform="translate(-24.32 -708.943)">
+      <path id="Trazado_156578" data-name="Trazado 156578" d="M0,0H28.725c4.507,0,6.505,8.076,6.505,8.076S44.725,11.67,44.725,16V60.439H0Z" transform="translate(1172.452 6090.417)" fill="#fff"/>
+      <g id="Grupo_70156" data-name="Grupo 70156" transform="translate(1164.045 6088)">
+        <path id="Trazado_722" data-name="Trazado 722" d="M1502.341,662.327h-27.389a5.358,5.358,0,0,0-5.318,5.384v54.207a5.358,5.358,0,0,0,5.318,5.384H1513.2a5.358,5.358,0,0,0,5.318-5.384V678.7Zm13.185,59.591a2.348,2.348,0,0,1-2.33,2.359h-38.243a2.348,2.348,0,0,1-2.33-2.359V667.711a2.348,2.348,0,0,1,2.33-2.36H1501.1l.015.015v14.578h14.4l.009.009Z" transform="translate(-1462.965 -662.327)" fill="#537e39"/>
+        <path id="Trazado_723" data-name="Trazado 723" d="M1467.5,954.253a2.074,2.074,0,0,1-2,2.13h-43.967a2.074,2.074,0,0,1-2-2.13v-21.3a2.074,2.074,0,0,1,2-2.13H1465.5a2.074,2.074,0,0,1,2,2.13Z" transform="translate(-1419.534 -900.928)" fill="#537e39"/>
+        <text id="PDF" transform="translate(19.625 46.637)" fill="#f8f8f8" font-size="14" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800" letter-spacing="0.04em" style="isolation: isolate"><tspan x="-15.925" y="0">PDF</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
