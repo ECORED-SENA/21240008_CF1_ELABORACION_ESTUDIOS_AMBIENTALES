@@ -20,7 +20,7 @@
 
     p.mb-4 Son aquellos elementos de las actividades, productos o servicios de una organización que puede interactuar con el medio ambiente (Icontec, 2015). Estos aspectos ambientales llegan a causar uno o varios impactos ambientales, algunos de los aspectos ambientales que se deben tener en cuenta y gestionar dentro de una organización son:
  
-    .row.mb-4
+    .row.align-items-center.mb-4
       .col-lg-4
         figure(data-aos="flip-up")
           img(src='@/assets/curso/tema2/img02.png')
@@ -48,20 +48,21 @@
               span 5
             | Agua, consumos y vertimientos. 
 
-          .row.justify-content-center
-            .col-lg-10.BG02.p-4.mb-5
-              .row.align-items-center.justify-content-center
-                .col-7.mb-4.mb-lg-2
-                  p.mb-0 Para profundizar en el tema sobre aspectos ambientales le invito a revisar en la sección de material complementario el Documento   ¨#[i Sistemas de gestión ambiental, requisitos con orientación para su uso]¨.
-                .col-auto
-                  a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
-                    figure
-                      img(src="@/assets/curso/tema2/img04.svg", style="width:150px").m-auto
-
-    separador
+        .row.BG02.align-items-center
+          .col-lg-9.mb-4.mb-lg-0.p-4
+            p.mb-0 Para profundizar en el tema sobre aspectos ambientales le invito a revisar en la sección de material complementario el Documento   ¨#[i Sistemas de gestión ambiental, requisitos con orientación para su uso]¨.
+          .col-lg-3
+            a.anexo.RA01.mb-4(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              .anexo__icono
+                img(src="@/assets/curso/tema2/img04.svg")
+              .anexo__texto
+                h5.mb-0 Enlace web
+    
+    <br><br><br>
     .BGIMG05.p-4
+      br
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 2.2	Identificación de aspectos ambientales y qué impactos generan.
+        h2 2.2	Identificación de aspectos ambientales y qué impactos generan
       
       p Un aspecto ambiental es la causa o elemento de actividad que interactúa con el medio ambiente, esto repercute necesariamente sobre el contexto produciendo un impacto ambiental, este último sería el efecto; es decir, el que causa el cambio en el medio ambiente ya sea negativo o positivo. 
 
@@ -108,20 +109,22 @@
         
       .col-md-8.BG02.p-4
         .row.align-items-center.justify-content-center
-          .col.mb-4.mb-lg-0
+          .col-lg-9.mb-4.mb-lg-0.p-4
             p.mb-0 Para profundizar en el tema le invito a revisar el video que se encuentra en la sección de materiales complementarios con el nombre: ¨#[i Qué son Aspectos e Impactos Ambientales]¨.
-          .col-auto
-            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=rE-m9ZYs0u8" target="_blank")
-              figure
-                img(src="@/assets/curso/tema2/img04.svg", style="width:150px").m-auto
+          .col-lg-3
+            a.anexo.RA02.mb-4(href="https://www.youtube.com/watch?v=rE-m9ZYs0u8" target="_blank")
+              .anexo__icono
+                img(src="@/assets/curso/tema2/img04.svg")
+              .anexo__texto
+                h5.mb-0 Enlace web
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.3	Clasificación y valoración de los impactos ambientales.
+      h2 2.3	Clasificación y valoración de los impactos ambientales
 
     p.mb-4 Los impactos ambientales se definen como cualquier alteración en el medio ambiente que sea negativo o positivo y que se desarrollen con la ejecución de una actividad o proyecto específico; estos impactos se pueden clasificar de acuerdo a su origen, por lo cual se invita a revisar el siguiente recurso de aprendizaje:
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-10.BGIMG06.p-4
         SlyderA
           .row.justify-content-center.p-4
@@ -137,7 +140,7 @@
             .col-md-5.col-lg.mb-5
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')
-                .BG04.p-4
+                .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
                     h4 Sinérgico
@@ -161,7 +164,7 @@
             .col-md-5.col-lg.mb-5
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
-                .BG04.p-4
+                .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
                     h4 Indirecto
@@ -183,11 +186,12 @@
             .col-md-5.col-lg.mb-5
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')
-                .BG04.p-4
+                .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
                     h4 Irreversible
                     p Exposición parmente y regular a sustancias tóxicas, causan enfermedades y hasta la muerte.
+                  br
             .col-md-10
               h4.mb-4 Reversible e irreversible  
               p El reversible es aquel donde se puede llegar a recuperar una zona determinada de forma natural o por medio de medidas del ser humano, irreversible es cuando un espacio determinado no se puede recuperar de ninguna forma o se afecta la calidad de vida de una o varias personas de manera permanente.
@@ -205,7 +209,7 @@
             .col-md-5.col-lg.mb-5
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')
-                .BG04.p-4
+                .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
                     h4 Potencial
@@ -228,7 +232,7 @@
             .col-md-5.col-lg.mb-5
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
-                .BG04.p-4
+                .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
                     h4 Permanente
@@ -251,7 +255,7 @@
             .col-md-5.col-lg.mb-5 
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
-                .BG04.p-4
+                .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
                     h4 Diseminado
@@ -261,6 +265,7 @@
               h4.mb-4 Local o diseminado  
               p El impacto local, es aquel que se concentra en un mismo lugar y no se expande en gran extensión y el diseminado, es aquel que llegará a afectar otras zonas, incluso distantes del foco de contaminación o de riesgo ambiental.
 
+    br
     .row.justify-content-center.mb-4
       .col-lg-10
         p El estudio ambiental es el desarrollo formal para pronosticar las consecuencias ambientales del área, por ello es importante realizar claramente la clasificación de los impactos para poder pasar a realizar una valoración del impacto ambiental y dar cumplimiento a la legislación ambiental sin sobrepasar los parámetros permisibles por dicha norma.
@@ -311,11 +316,11 @@
             | Los requisitos legales, medioambientales involucrados en el aspecto.
 
     .row.justify-content-center
-        .col-lg-6.BG05.p-4.mb-5
-          .row.align-items-center.justify-content-center
-            .col-10.mb-4.mb-lg-0
-              .text-white
-                p.text-center.mb-0 A continuación, se identifican los métodos de valoración más empleados, por lo que se invita a revisar la siguiente figura 4:
+      .col-lg-6.BG05.p-2.mb-5
+        .row.align-items-center.justify-content-center
+          .col-10.mb-4.mb-lg-0
+            .text-white
+              p.text-center.mb-0 A continuación, se identifican los métodos de valoración más empleados, por lo que se invita a revisar la siguiente figura 4:
 
     .row.justify-content-center.mb-0
       .col-lg-8.mb-0.p-4
@@ -327,14 +332,16 @@
 
         p Este procedimiento técnico permite evaluar cuantitativa o cualitativamente el proceso, verificando así si se cumple la normatividad ambiental y cuáles se deben llevar a cabo después de obtener los resultados de la valoración del impacto ambiental.
 
-      .col-lg-8.BG02.p-4.mb-5
+      .col-lg-9.BG02.p-4.mb-5
         .row.align-items-center.justify-content-center
-          .col-7.mb-4.mb-lg-0
+          .col-lg-9.mb-4.mb-lg-0.p-4
             p.mb-0 Para profundizar en el tema le invito a revisar el documento que se encuentra en la sección de materiales complementarios con el siguiente nombre: #[i ¨PIGA, Instructivo diligenciamiento de la matriz de identificación de aspectos y valoración de impactos ambientales¨].
-          .col-auto
-            a.anexo.mb-4.mb-lg-0(href="https://www.ambientebogota.gov.co/documents/10184/564058/Instructivo+para+el+diligenciamiento+de+la+matriz+de+Identificaci%C3%B3n+de+aspectos+y+valoraci%C3%B3n+de+impactos+ambientales.pdf/e5f7edbd-f5d8-4008-8bda-fb9328d8b98b" target="_blank")
-              figure
-                img(src="@/assets/curso/tema2/img27.svg", style="width:150px")
+          .col-lg-3
+            a.anexo.RA02.mb-4(href="https://www.ambientebogota.gov.co/documents/10184/564058/Instructivo+para+el+diligenciamiento+de+la+matriz+de+Identificaci%C3%B3n+de+aspectos+y+valoraci%C3%B3n+de+impactos+ambientales.pdf/e5f7edbd-f5d8-4008-8bda-fb9328d8b98b" target="_blank")
+              .anexo__icono
+                img(src="@/assets/curso/tema2/img04.svg")
+              .anexo__texto
+                h5.mb-0 Enlace web
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -382,28 +389,28 @@
 
     .row.justify-content-center.mb-5
       .col-4.mb-4
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta.tarjeta-slide.arriba.BG10(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-3
-              h2.text-center  Componentes físicos.
+              h2.text-center  Componentes físicos
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img26.svg')})`}")
 
       .col-4.mb-4
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta.tarjeta-slide.arriba.BG10(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img26.svg')})`}")
             .tarjeta-slide__contenido.p-3
-              h2.text-center Biológicos.             
+              h2.text-center Biológicos             
 
       .col-4.mb-4
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta.tarjeta-slide.arriba.BG10(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img26.svg')})`}")
             .tarjeta-slide__contenido.p-3
-              h2.text-center Socioeconómicos.              
+              h2.text-center Socioeconómicos              
 
     separador
 </template>

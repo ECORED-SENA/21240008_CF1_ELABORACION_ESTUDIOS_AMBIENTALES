@@ -16,7 +16,7 @@
     separador
 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.1 Legislación relacionada con Estudios Ambientales
+      h2 4.1 Legislación relacionada con estudios ambientales
 
     p La legislación ambiental ha tenido un desarrollo progresivo e importante puesto que cada vez se da más importancia a lo que sucede con el medio ambiente; es por eso que las entidades regulatorias se han concientizado y han concientizado al ciudadano para establecer acciones de prevención y mitigación para dar solución a la problemática que se presenta. 
 
@@ -34,12 +34,14 @@
       .col-lg-8
         .tarjeta.BGIMG13.p-4
           LineaTiempoC.color-acento-contenido(text-small)
-            .row(titulo="1973")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="http://www.suin-juriscol.gov.co/viewDocument.asp?id=1579056" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
+            .row.align-items-center(titulo="1973")
+              .col-md-4
+                a.anexo.mb-4(href="http://www.suin-juriscol.gov.co/viewDocument.asp?id=1579056" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/curso/tema2/img04.svg")
+                  .anexo__texto
+                    h5.mb-0 Enlace web
+              .col-md-8.mb-4.mb-md-0
                 h3 LEY 23 DE 1973
                 p Se expide el código de los recursos naturales y protección al medio ambiente para todo el territorio colombiano.
                 p Artículos del 1 al 20.
@@ -237,13 +239,17 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .row.align-items-center.justify-content-center.BG08.p-4
-      .col-8.mb-4.mb-lg-0
-        p Para profundizar en el aprendizaje sobre estudios ambientales le invito a revisar la página #[i web IISD. International Institute for Sustainable Development], en la cual puede encontrar algunos ejemplos en español sobre evaluación de impactos ambientales, esta información la puede conseguir en la sección del material complementario.
-      .col-auto
-        a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1561_2019.htm" target="_blank")
-          figure
-            img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
+    .row.justify-content-center
+      .col-lg-10.BG08.p-4
+        .row.align-items-center
+          .col-lg-9.mb-4.mb-lg-0
+            p Para profundizar en el aprendizaje sobre estudios ambientales le invito a revisar la página #[i web IISD. International Institute for Sustainable Development], en la cual puede encontrar algunos ejemplos en español sobre evaluación de impactos ambientales, esta información la puede conseguir en la sección del material complementario.
+          .col-lg-3     
+            a.anexo.RA02.mb-4(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1561_2019.htm" target="_blank")
+              .anexo__icono
+                img(src="@/assets/curso/tema2/img04.svg")
+              .anexo__texto
+                h5.mb-0 Enlace web
  
     separador
 </template>

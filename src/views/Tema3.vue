@@ -6,11 +6,12 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span.text-white 3
-      h1 Estudios Ambientales
+      h1 Estudios ambientales
     .row.justify-content-center.BGIMG07.mb-5
-      .col-lg-10.p-4
+      .col-lg-10.p-0
+        br
         p Los estudios ambientales tienen como propósito la difusión de conceptos técnicos, por parte de las autoridades ambientales competentes. Un estudio ambiental se desarrolla con base en los términos de referencia y la autoridad ambiental lo podrá adaptar a la actividad o proyecto que se esté desarrollando en su momento.
-        .row.mb-4
+        .row.align-items-center.mb-4
           .col-lg-6
             figure(data-aos="flip-left")
               img(src='@/assets/curso/tema3/img02.png')
@@ -34,14 +35,14 @@
                 <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
                 |  Por último, se debe contemplar la descripción:
 
-            .tarjeta--boton.color-primario.p-1.mb-4
-              h3.mb-0.text-center.text-white De cantidades y tipos de residuos generados.          
-            .tarjeta--boton.color-primario.p-1.mb-4
-              h3.mb-0.text-center.text-white Vertimientos.
-            .tarjeta--boton.color-primario.p-1.mb-4
-              h3.mb-0.text-center.text-white Emisiones atmosféricas.
-            .tarjeta--boton.color-primario.p-1.mb-4
-              h3.mb-0.text-center.text-white Cualquier otro elemento que genere dicha actividad.
+            .tarjeta--boton.color-secundario.p-1.mb-4
+              h3.mb-0.text-center.text-white De cantidades y tipos de residuos generados        
+            .tarjeta--boton.color-secundario.p-1.mb-4
+              h3.mb-0.text-center.text-white Vertimientos
+            .tarjeta--boton.color-secundario.p-1.mb-4
+              h3.mb-0.text-center.text-white Emisiones atmosféricas
+            .tarjeta--boton.color-secundario.p-1.mb-4
+              h3.mb-0.text-center.text-white Cualquier otro elemento que genere dicha actividad
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Antecedentes y definiciones
@@ -83,7 +84,7 @@
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.2 Características y técnicas utilizadas para los Estudios Ambientales
+      h2 3.2 Características y técnicas utilizadas para los estudios ambientales
 
     p.mb-4 El propósito de identificar las características y técnicas de un estudio ambiental radica en constituir unas condiciones mínimas de recolección, procesamiento y análisis para finalizar con la evaluación de dichos impactos ambientales generados en el sector específico de la actividad ejecutada. Para la realización de estos se debe tener en cuenta una serie de ítems con el fin de conocer los parámetros iniciales de cualquier investigación y/o proyecto, los cuales se pueden revisar en la siguiente tabla 1:
 
@@ -242,8 +243,6 @@
                 .col-lg-4
                   figure(data-aos="flip-left")
                     img(src='@/assets/curso/tema3/img25.svg')
-
-
     separador
 </template>
 <script>
