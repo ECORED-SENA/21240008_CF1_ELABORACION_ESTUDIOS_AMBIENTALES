@@ -55,16 +55,16 @@
           h5 Figura 5.
           span Evolución.
     .row.justify-content-center.lg-10.mb-4
-      .col-5.BGIMG07
+      .col-lg-5.BGIMG08
         .row.justify-content-center.mb-4
-          .col-5.p-4
+          .col-lg-5.p-4
             figure(data-aos="flip-left")
               img(src='@/assets/curso/tema3/img05.png')
         p.text-center En la década de los setenta (1972) la Declaración de Estocolmo sobre el Medio Ambiente Humano donde se generó importancia para garantizar la subsistencia de todas las especies en nuestro planeta.
 
-      .col-5.BGIMG08
+      .col-lg-5.BGIMG07
         .row.justify-content-center.mb-4
-          .col-5.p-4
+          .col-lg-5.p-4
             figure(data-aos="flip-left")
               img(src='@/assets/curso/tema3/img06.png')
         p.text-center Otro hecho importante fue la Carta de Belgrado (1975) donde la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) y el Plan de las Naciones Unidas para el Medio Ambiente (PNUMA) fomentan la educación para el cuidado del medio ambiente y empieza a jugar un papel importante a la hora de impartir cambios.
@@ -100,44 +100,44 @@
           .tabla-b__header        
           table        
             tr
-              th Espacialidad
-              td Se debe mencionar concretamente cuáles son los límites donde se desarrollará el estudio o sus zonas de influencia.
+              th(style="background-color: #F6F6F6") Espacialidad
+              td(style="background-color: #F6F6F6") Se debe mencionar concretamente cuáles son los límites donde se desarrollará el estudio o sus zonas de influencia.
             tr
-              th Temporalidad
-              td Definir los tiempos que se emplearán en el desarrollo de las diferentes tareas, estos deben ser dados con la mayor precisión posible.
+              th(style="background-color: #FFFFFF") Temporalidad
+              td(style="background-color: #FFFFFF") Definir los tiempos que se emplearán en el desarrollo de las diferentes tareas, estos deben ser dados con la mayor precisión posible.
             tr
-              th Justificación
-              td Se debe dar los lineamientos claros del por qué la realización del proyecto, además se debe tener en cuenta que se debe justificar tanto lo ambiental como socioeconómico.
+              th(style="background-color: #F6F6F6") Justificación
+              td(style="background-color: #F6F6F6") Se debe dar los lineamientos claros del por qué la realización del proyecto, además se debe tener en cuenta que se debe justificar tanto lo ambiental como socioeconómico.
             tr
-              th Sectorización
-              td En el estudio hay que elegir los sectores sensibles y de importancia ambiental, todo esto puede ser cartografiado y delimitado.
+              th(style="background-color: #FFFFFF") Sectorización
+              td(style="background-color: #FFFFFF") En el estudio hay que elegir los sectores sensibles y de importancia ambiental, todo esto puede ser cartografiado y delimitado.
             tr
-              th Complementariedad
-              td Brindar información clara, completa y cuantificable (donde sea necesario).
+              th(style="background-color: #F6F6F6") Complementariedad
+              td(style="background-color: #F6F6F6") Brindar información clara, completa y cuantificable (donde sea necesario).
             tr
-              th Localización
-              td Se debe tener la localización georreferenciada de cada actividad que conforme el proyecto, además de todas las acciones ambientales que surjan.
+              th(style="background-color: #FFFFFF") Localización
+              td(style="background-color: #FFFFFF") Se debe tener la localización georreferenciada de cada actividad que conforme el proyecto, además de todas las acciones ambientales que surjan.
             tr
-              th Sustentabilidad
-              td El estudio debe sustentar los diferentes análisis o conclusiones que se hagan sobre cada área de referencia, para esto se debe justificar por medio de documentos, información o de distintas fuentes que se tengan.
+              th(style="background-color: #F6F6F6") Sustentabilidad
+              td(style="background-color: #F6F6F6") El estudio debe sustentar los diferentes análisis o conclusiones que se hagan sobre cada área de referencia, para esto se debe justificar por medio de documentos, información o de distintas fuentes que se tengan.
             tr
-              th Coherencia
-              td Se deben dar las razones por las cuáles se definieron las áreas del proyecto, además de las zonas sensibles, zonas de manejo y los impactos ambientales.
+              th(style="background-color: #FFFFFF") Coherencia
+              td(style="background-color: #FFFFFF") Se deben dar las razones por las cuáles se definieron las áreas del proyecto, además de las zonas sensibles, zonas de manejo y los impactos ambientales.
             tr
-              th Integralidad
-              td Interacciones de los diferentes componentes ambientales y actividades del proyecto.
+              th(style="background-color: #F6F6F6") Integralidad
+              td(style="background-color: #F6F6F6") Interacciones de los diferentes componentes ambientales y actividades del proyecto.
             tr
-              th Secuencialidad
-              td Los componentes de estudio deben tener coherencia entre sí, de igual manera cada análisis ambiental debe relacionarse a las características del proyecto.
+              th(style="background-color: #FFFFFF") Secuencialidad
+              td(style="background-color: #FFFFFF") Los componentes de estudio deben tener coherencia entre sí, de igual manera cada análisis ambiental debe relacionarse a las características del proyecto.
             tr
-              th Aplicabilidad
-              td Cada medida de manejo ambiental debe tener conexión sobre los impactos ambientales dados, de igual manera, desde un punto de vista técnico se deben dar posibles soluciones.
+              th(style="background-color: #F6F6F6") Aplicabilidad
+              td(style="background-color: #F6F6F6") Cada medida de manejo ambiental debe tener conexión sobre los impactos ambientales dados, de igual manera, desde un punto de vista técnico se deben dar posibles soluciones.
             tr
-              th Especificidad
-              td Los resultados específicos deben provenir de un análisis de componentes ambientales, donde se conozca cómo se dinamiza el entorno y los posibles efectos del proyecto.
+              th(style="background-color: #FFFFFF") Especificidad
+              td(style="background-color: #FFFFFF") Los resultados específicos deben provenir de un análisis de componentes ambientales, donde se conozca cómo se dinamiza el entorno y los posibles efectos del proyecto.
             tr
-              th Resultados
-              td Con base a los diferentes análisis propuestos, se dan los resultados y conclusiones de cada proyecto.
+              th(style="background-color: #F6F6F6") Resultados
+              td(style="background-color: #F6F6F6") Con base a los diferentes análisis propuestos, se dan los resultados y conclusiones de cada proyecto.
 
       .row.justify-content-center.mb-4
         .col-lg-10.cajon.color-primario.p-4.mb-4
@@ -150,29 +150,29 @@
       .col-lg-8.mb-4
         button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
           .row
-            .col-lg-10.col-sm-6
+            .col-lg-10
               h5.mb-0 Sistemas de red y gráficos
         button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
           .row
             .indicador--hover(v-if="indicadorImagenZoom")
-            .col-lg-10.col-sm-6
+            .col-lg-10
               h5.mb-0 Sistemas cartográficos  
         button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='true' aria-controls='.multi-collapse3')
           .row
-            .col-lg-10.col-sm-6
+            .col-lg-10
               h5.mb-0 Métodos basados en indicadores, índices e integración de la evaluación
         button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='true' aria-controls='.multi-collapse4')
           .row
-            .col-lg-10.col-sm-6
+            .col-lg-10
               h5.mb-0  Métodos cuantitativos
       .col-lg-10.position-relative
         .multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
           img.mb-4(src='@/assets/curso/tema3/img20.svg')
           p Los sistemas de red y gráficos son aquellos métodos que se utilizan de manera generalizada para evaluar los impactos ambientales en una actividad o proyecto, por lo que se indica en las filas de la matriz los factores ambientales y en las columnas se disponen las acciones del proyecto a evaluar, esto arrojará un resultado con el que se podrá llegar a diferentes alternativas de solución a aquello que se encuentre o de cómo resultado con estas metodologías, a continuación se mencionan las más usadas: 
           .row.justify-content-center.mb-4
-            .col.BGIMG10.p-4 
+            .col.BGIMG10
               .row.align-items-center
-                .col-lg-8                  
+                .col-lg-8.p-4                 
                   ul.lista-ul
                     li 
                       <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
@@ -186,17 +186,17 @@
                     li 
                       <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
                       p.mb-0 <span style="color:#537E39;"><b>Bereano:</b></span> es importante para saber cuáles opciones son las óptimas en un proyecto, las alternativas van en las columnas y los factores en las filas para luego así relacionarlas entre sí.                     
-                .col-lg-4
+                .col-lg-4.p-0
                   figure(data-aos="flip-left")
-                    img(src='@/assets/curso/tema3/img22.svg')
+                    img.RA03(src='@/assets/curso/tema3/img22.png')
       
         .multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
           img.mb-4(src='@/assets/curso/tema3/img20.svg')
           p La cartografía es aquella disciplina que se encarga de estudiar y producir los mapas, buscando resolver la problemática que se encuentra en las ciencias de la tierra; es decir, que los sistemas cartográficos son la representación gráfica que se da entre el orden de los puntos curvos de la tierra y la superficie plana de un mapa, utilizando como medida una escala que indica la relación entre el mapa y la realidad. A continuación, se mencionan algunos sistemas cartográficos:
           .row.justify-content-center.mb-4
-            .col.BGIMG10.p-4 
+            .col.BGIMG10
               .row.align-items-center
-                .col-lg-8                  
+                .col-lg-8.p-4                  
                   ul.lista-ul
                     li 
                       <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
@@ -207,17 +207,17 @@
                     li 
                       <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
                       p.mb-0 <span style="color:#537E39;"><b>Mc Harg: </b></span> se identifican las características de un territorio, pero tiene como fin identificar de manera eficiente los recursos por medio de inventarios que son localizados por mapas con distintos factores.                    
-                .col-lg-4
+                .col-lg-4.p-0
                   figure(data-aos="flip-left")
-                    img(src='@/assets/curso/tema3/img23.svg')
+                    img.RA04(src='@/assets/curso/tema3/img23.png')
       
         .multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
           img.mb-4(src='@/assets/curso/tema3/img20.svg')
           p Estos al igual que los anteriores son otros tipos de procedimientos para la evaluación de impactos ambientales, solo que son desarrollados por diferentes universidades, los cuales se mencionan a continuación:
           .row.justify-content-center.mb-4
-            .col.BGIMG10.p-4 
+            .col.BGIMG10 
               .row.align-items-center
-                .col-lg-8                  
+                .col-lg-8.p-4                  
                   ul.lista-ul
                     li 
                       <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
@@ -228,21 +228,21 @@
                     li 
                       <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
                       p.mb-0 <span style="color:#537E39;"><b>Método de Fisher-Davies. </b></span> 
-                .col-lg-4
-                  figure(data-aos="flip-left")
-                    img(src='@/assets/curso/tema3/img24.svg')
+                .col-lg-4.p-0
+                  figure.RA04(data-aos="flip-left")
+                    img(src='@/assets/curso/tema3/img24.png')
       
         .multi-collapse4.collapse(data-bs-parent='#MapaGroup01')
           img.mb-4(src='@/assets/curso/tema3/img20.svg')
           p La mayoría de estos métodos se han creado para implementar en proyectos específicos, siendo así que en cada caso dependiendo de la labor se escogerá la metodología más apropiada, los métodos cuantitativos son aquellos que permiten medir indicadores y que dan un resultado en porcentaje, para así medir y evaluar el impacto que se está generando. A continuación, se menciona el método de un instituto que puede aportar gran conocimiento en el tema.
           .row.justify-content-center.mb-4
-            .col.BGIMG10.p-4 
+            .col.BGIMG10
               .row.align-items-center
-                .col-lg-8                  
+                .col-lg-8.p-4                 
                   p.mb-0 <span style="color:#537E39;"><b>Método del Instituto Batelle-Columbus: </b></span> planificación de proyectos a mediano y largo plazo, garantizando el menor impacto ambiental posible.
-                .col-lg-4
+                .col-lg-4.p-0
                   figure(data-aos="flip-left")
-                    img(src='@/assets/curso/tema3/img25.svg')
+                    img.RA04(src='@/assets/curso/tema3/img25.png')
     separador
 </template>
 <script>

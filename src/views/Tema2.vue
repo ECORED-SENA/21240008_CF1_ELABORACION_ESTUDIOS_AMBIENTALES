@@ -30,7 +30,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            | Contaminación atmosférica, consumo de energía y combustibles
+            | Contaminación atmosférica, consumo de energía y combustibles.
           li 
             .lista-ol--cuadro__vineta
               span 2
@@ -52,7 +52,7 @@
           .col-lg-9.mb-4.mb-lg-0.p-4
             p.mb-0 Para profundizar en el tema sobre aspectos ambientales le invito a revisar en la sección de material complementario el Documento   ¨#[i Sistemas de gestión ambiental, requisitos con orientación para su uso]¨.
           .col-lg-3
-            a.anexo.RA01.mb-4(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.RA01.mb-4(href="https://informacion.unad.edu.co/images/control_interno/NTC_ISO_14001_2015.pdf" target="_blank")
               .anexo__icono
                 img(src="@/assets/curso/tema2/img04.svg")
               .anexo__texto
@@ -79,17 +79,17 @@
                   img.mb-4(src='@/assets/curso/tema2/img03.png' alt='AvatarTop')
               h3.text-center Objetivos
             .row.BG01.p-4.justify-content-center.mb-5
-              .col-6
+              .col-lg-6
                 figure.mb-4
                   img.mb-4(src='@/assets/curso/tema2/img04.png' alt='AvatarTop')
               h3.text-center Metas
             .row.BG01.p-4.justify-content-center.mb-5
-              .col-6
+              .col-lg-6
                 figure.mb-4
                   img.mb-4(src='@/assets/curso/tema2/img05.png' alt='AvatarTop')
               h3.text-center Indicadores
             .row.BG01.p-4.justify-content-center.mb-5
-              .col-6
+              .col-lg-6
                 figure.mb-4
                   img.mb-4(src='@/assets/curso/tema2/img06.png' alt='AvatarTop')
               h3.text-center Estrategias
@@ -128,28 +128,6 @@
       .col-lg-10.BGIMG06.p-4
         SlyderA
           .row.justify-content-center.p-4
-            .col-md-5.col-lg.mb-5.mb-lg-4
-              .tarjeta-avatar
-                img(src='@/assets/curso/tema2/img08.svg' alt='AvatarTop')
-                .BG04.p-4
-                  <br><br>
-                  .text-color-primario.p-4
-                    h4 Acumulativo
-                    p Uso de plástico en grandes cantidades a nivel mundial, que van a los ríos y océanos.
-                    br
-            .col-md-5.col-lg.mb-5
-              .tarjeta-avatar
-                img(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')
-                .BG09.p-4
-                  <br><br>
-                  .text-color-primario.p-4
-                    h4 Sinérgico
-                    p Sabanalarga, población que fue desaparecida en el 2018, para la construcción de la represa HidroItuango en Antioquia
-            .col-md-10
-              h4.mb-4 Acumulativo o sinérgico 
-              p Los acumulativos son aquellos pequeños impactos que se van sumando en un mismo ecosistema por un determinado tiempo, y los sinérgicos son aquellos que se relacionan entre sí para generar un impacto mayor, por que se dan al mismo tiempo y en contextos muy cercanos, que afectan doblemente una comunidad o un territorio de manera positiva o negativa según el proyecto.  
-
-          .row.justify-content-center.p-4
             h4.text-center.mb-0 Estudios ambientales
             p.text-center Clasificación y valoración de los impactos ambientales
             .col-md-5.col-lg.mb-5.mb-lg-4
@@ -158,7 +136,7 @@
                 .BG04.p-4
                   <br><br>
                   .text-color-primario.p-4
-                    h4 Directo
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Directo</h4>
                     p Tala de bosques, pérdida inmediata del hábitat de fauna y flora.
                     
             .col-md-5.col-lg.mb-5
@@ -167,11 +145,33 @@
                 .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
-                    h4 Indirecto
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Indirecto</h4>
                     p Industrialización, contaminación del aire, consecuencias a largo plazo.
             .col-md-10
               h4.mb-4 Impacto ambiental directo o indirecto  
-              p Los acumulativos son aquellos pequeños impactos que se van sumando en un mismo ecosistema por un determinado tiempo, y los sinérgicos son aquellos que se relacionan entre sí para generar un impacto mayor, por que se dan al mismo tiempo y en contextos muy cercanos, que afectan doblemente una comunidad o un territorio de manera positiva o negativa según el proyecto.
+              p Los impactos directos, son aquellos que se puede visualizar de inmediato o al muy poco tiempo siendo un resultado positivo o negativo, mientras que el impacto indirecto es aquel que toma bastante tiempo para poder evidenciar los cambios.
+
+          .row.justify-content-center.p-4
+            .col-md-5.col-lg.mb-5.mb-lg-4
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema2/img08.svg' alt='AvatarTop')
+                .BG04.p-4
+                  <br><br>
+                  .text-color-primario.p-4
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Acumulativo</h4>
+                    p Uso de plástico en grandes cantidades a nivel mundial, que van a los ríos y océanos.
+                    br
+            .col-md-5.col-lg.mb-5
+              .tarjeta-avatar
+                img(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')
+                .BG09.p-4
+                  <br><br>
+                  .text-color-primario.p-4
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Sinérgico</h4>
+                    p Sabanalarga, población que fue desaparecida en el 2018, para la construcción de la represa HidroItuango en Antioquia
+            .col-md-10
+              h4.mb-4 Acumulativo o sinérgico 
+              p Los acumulativos son aquellos pequeños impactos que se van sumando en un mismo ecosistema por un determinado tiempo, y los sinérgicos son aquellos que se relacionan entre sí para generar un impacto mayor, por que se dan al mismo tiempo y en contextos muy cercanos, que afectan doblemente una comunidad o un territorio de manera positiva o negativa según el proyecto.  
 
           .row.justify-content-center.p-4
             .col-md-5.col-lg.mb-5.mb-lg-4
@@ -180,7 +180,7 @@
                 .BG04.p-4
                   <br><br>
                   .text-color-primario.p-4
-                    h4 Reversible
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Reversible</h4>
                     p Rio Bogotá, cascada de San Antonio del Tequendama. 
                     br
             .col-md-5.col-lg.mb-5
@@ -189,7 +189,7 @@
                 .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
-                    h4 Irreversible
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Irreversible</h4>
                     p Exposición parmente y regular a sustancias tóxicas, causan enfermedades y hasta la muerte.
                   br
             .col-md-10
@@ -203,7 +203,7 @@
                 .BG04.p-4
                   <br><br>
                   .text-color-primario.p-4
-                    h4 Actual
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Actual</h4>
                     p Riesgos para la salud y al medio ambiente por el uso de gases tóxicos para erradicar los cultivos ilícitos en Colombia. 
                     br
             .col-md-5.col-lg.mb-5
@@ -212,7 +212,7 @@
                 .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
-                    h4 Potencial
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Potencial</h4>
                     p Pérdida de playas en Colombia por el cambio climático lo cual produciría migraciones al interior del país.
                     br
             .col-md-10
@@ -226,7 +226,7 @@
                 .BG04.p-4
                   <br><br>
                   .text-color-primario.p-4
-                    h4 Temporal
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Temporal</h4>
                     p Dentro de los retos que Colombia tiene para el 2030, está la reforestación de zona naturales, como: el Amazonas, entre otras.
                     br
             .col-md-5.col-lg.mb-5
@@ -235,7 +235,7 @@
                 .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
-                    h4 Permanente
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Permanente</h4>
                     p Las grandes cantidades de #[i CO_2] que se lanza a la atmósfera, está haciendo daño a la capa de ozono.
                     <br><br>
             .col-md-10
@@ -249,7 +249,7 @@
                 .BG04.p-4
                   <br><br>
                   .text-color-primario.p-4
-                    h4 Local
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Local</h4>
                     p Turismo de naturaleza, Amazonas y Guaviare, recibirán dinero para infraestructura, con el fin de hacer de este un modelo  económico que permita reducir la tala de bosques.
                     
             .col-md-5.col-lg.mb-5 
@@ -258,7 +258,7 @@
                 .BG09.p-4
                   <br><br>
                   .text-color-primario.p-4
-                    h4 Diseminado
+                    <h4 style="color:#537E39 !important; font-weight: bold;">Diseminado</h4>
                     p La Amazonía es el pulmón del mundo, al ser destruida por la tala de bosques, el planeta y los ciudadanos globales perderán su hábitat.
                     br
             .col-md-10
@@ -388,7 +388,7 @@
     p.text-center La finalidad de estas medidas es proteger y conservar los componentes que estén presentes en medio de la actividad, como lo son:  
 
     .row.justify-content-center.mb-5
-      .col-4.mb-4
+      .col-lg-4.mb-4
         .tarjeta.tarjeta-slide.arriba.BG10(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -396,7 +396,7 @@
               h2.text-center  Componentes físicos
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img26.svg')})`}")
 
-      .col-4.mb-4
+      .col-lg-4.mb-4
         .tarjeta.tarjeta-slide.arriba.BG10(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -404,7 +404,7 @@
             .tarjeta-slide__contenido.p-3
               h2.text-center Biológicos             
 
-      .col-4.mb-4
+      .col-lg-4.mb-4
         .tarjeta.tarjeta-slide.arriba.BG10(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor

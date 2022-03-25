@@ -20,11 +20,11 @@
 
     p La legislación ambiental ha tenido un desarrollo progresivo e importante puesto que cada vez se da más importancia a lo que sucede con el medio ambiente; es por eso que las entidades regulatorias se han concientizado y han concientizado al ciudadano para establecer acciones de prevención y mitigación para dar solución a la problemática que se presenta. 
 
-    .row.align-items-center.BGIMG12.mb-5.p-4
+    .row.align-items-center.BGIMG12.mb-5(data-aos="fade-right")
       .col-lg-4
         figure(data-aos="flip-right")
           img(src='@/assets/curso/tema4/img04.svg')
-      .col-lg-8
+      .col-lg-8.p-4
         p Esto ha dado paso para la creación de otras normas que buscan la protección de los recursos naturales, mediante las cuales se han establecido parámetros permisibles para el sector industrial, donde se realiza la implementación de estudios ambientales y por lo que quien no cumpla los establecido en las normas ambientales será sancionado.
         p Es importante resaltar que la normatividad ambiental constantemente se modifica o se actualiza, pero, siempre será en pro del medio ambiente y de la salud humana, buscando un bienestar común que permita seguir avanzando en el desarrollo industrial sin afectar los ecosistemas.
     
@@ -33,7 +33,7 @@
     .row.justify-content-center.mb-4
       .col-lg-8
         .tarjeta.BGIMG13.p-4
-          LineaTiempoC.color-acento-contenido(text-small)
+          LineaTiempoC.color-acento-contenido(text-small)(data-aos="fade-right")
             .row.align-items-center(titulo="1973")
               .col-md-4
                 a.anexo.mb-4(href="http://www.suin-juriscol.gov.co/viewDocument.asp?id=1579056" target="_blank")
@@ -183,11 +183,12 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2 Términos de referencia
 
-    .row.align-items-center.BGIMG14.mb-5.p-4
-      .col.lg-10.p-4
-        br
-        h5 Los términos de referencia son lineamientos generales que la autoridad ambiental señala y pública para la elaboración y ejecución de los Estudios de Impacto Ambiental (EIA) y el Diagnóstico Ambiental de Alternativas DAA presentados ante la autoridad ambiental competente al momento de solicitar el otorgamiento de una licencia ambiental.
-        p -(ANLA, 2019).
+    .row.align-items-center.BG11.mb-5.p-4
+      .col.lg-10.p-4(data-aos="fade-right")
+        .bloque-texto-c
+          i.fas.fa-quote-right
+          h5.mb-0 Los términos de referencia son lineamientos generales que la autoridad ambiental señala y pública para la elaboración y ejecución de los Estudios de Impacto Ambiental (EIA) y el Diagnóstico Ambiental de Alternativas DAA presentados ante la autoridad ambiental competente al momento de solicitar el otorgamiento de una licencia ambiental.
+          span - -(ANLA, 2019).
 
     p.mb-4 Cabe resaltar que cada acto administrativo es una herramienta para cada proyecto, la cual facilita la elaboración del estudio de impacto ambiental; es decir, sirve como guía para la preparación de este, de igual manera estos pueden o no tener información adicional que se considere relevante para cada autoridad ambiental respectiva.
     br
@@ -197,7 +198,7 @@
               img(src='@/assets/curso/tema4/img09.svg')     
 
     .row.justify-content-center.mb-4
-      .col-lg-5.col-sm-6.BGIMG15.p-5.mb-4
+      .col-lg-5.col-sm-6.BGIMG15.p-5.mb-4(data-aos="fade-right")
         p.mb-4 Es importante a la hora de realizar los términos de referencia de un EIA, que estos contengan las generalidades de cada proyecto, donde se vean reflejados:
         ul.lista-ul
           li 
@@ -213,7 +214,7 @@
             <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
             h5 Metodología a usar. 
 
-      .col-lg-5.col-sm-6.BGIMG16.p-5.mb-4
+      .col-lg-5.col-sm-6.BGIMG16.p-5.mb-4(data-aos="fade-left")
         p.mb-4 Por otro lado, al realizar un proyecto este debe llevar la descripción, abarcando temas como:
         ul.lista-ul
           li 
@@ -228,19 +229,19 @@
           li 
             <i class="fas fa-circle fa-xs" style="color:#EBB294!important;"></i>
             h5 Funcionamiento, entre otras. 
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         p.mb-4 Luego de esto se procede a caracterizar los diferentes medios socio ecológicos (biótico, abiótico y socioeconómico), para así saber qué plan de manejo ambiental es el más adecuado usar en cada proyecto.
 
     .row.justify-content-center.mb-0
-      .col-lg-6.BGIMG17.p-2
+      .col-lg-6.BGIMG17.p-2(data-aos="fade-right")
         h4.text-white.text-center.mb-0 Para reforzar su aprendizaje se le invita  a revisar el siguiente video.
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/FgZTUUgIcIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center
-      .col-lg-10.BG08.p-4
+      .col-lg-10.BG08.p-4(data-aos="fade-right")
         .row.align-items-center
           .col-lg-9.mb-4.mb-lg-0
             p Para profundizar en el aprendizaje sobre estudios ambientales le invito a revisar la página #[i web IISD. International Institute for Sustainable Development], en la cual puede encontrar algunos ejemplos en español sobre evaluación de impactos ambientales, esta información la puede conseguir en la sección del material complementario.

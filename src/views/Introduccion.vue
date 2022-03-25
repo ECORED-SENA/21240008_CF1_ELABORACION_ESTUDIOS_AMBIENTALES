@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span
-          i.fas.fa-info
+          i.fas.fa-info.text-white
       h1 Introducción
     
     .row.BGIMG01.justify-content-center.p-4.mb-4
@@ -24,7 +24,7 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/8AI-QmhqzNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
 
 </template>

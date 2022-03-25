@@ -79,7 +79,7 @@
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             h3.text-regular.mb-0 Como se puede observar se establecen interacciones entre los sistemas naturales y los sistemas humanos, ya que a veces la actividad humana afecta de forma negativa, por lo que da como resultado sobreexplotación de los recursos, aumentando deforestación y la contaminación ambiental; y de otra parte la naturaleza también afecta al ser humano, ya que representan desastres naturales como inundaciones, terremotos y deslizamientos de terreno, entre otros. Por lo anterior, se busca la solución a todos estos problemas que se han venido presentando, desde el entendimiento y aplicación de los sistemas anteriormente explicados.           
-            i.fas.fa-quote-right
+            i.fas.fa-quote-right.p-0
           .bloque-texto-d__autor 
             .h5.mb-0 Nota. SENA (2021).
              
@@ -110,7 +110,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Figura 2.
-          span Sistemas ecosistémicos 
+          span Sistemas ecosistémicos.
       .col-lg-8  
         figure.mb-5
           img.mb-4(src='@/assets/curso/tema1/img10.png')
