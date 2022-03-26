@@ -185,32 +185,32 @@
         ul.lista-ul
           li 
             <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-            h5 Los objetivos.
+            h5 Los objetivos
           li 
             <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-            h5 Antecedentes. 
+            h5 Antecedentes
           li 
             <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-            h5 Alcance.
+            h5 Alcance
           li 
             <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-            h5 Metodología a usar. 
+            h5 Metodología a usar
 
       .col-lg-5.col-sm-6.BGIMG16.p-5.mb-4(data-aos="fade-left")
         p.mb-4 Por otro lado, al realizar un proyecto este debe llevar la descripción, abarcando temas como:
         ul.lista-ul
           li 
             <i class="fas fa-circle fa-xs" style="color:#EBB294!important;"></i>
-            h5 Localización.
+            h5 Localización
           li 
             <i class="fas fa-circle fa-xs" style="color:#EBB294!important;"></i>
-            h5 Características. 
+            h5 Características
           li 
             <i class="fas fa-circle fa-xs" style="color:#EBB294!important;"></i>
-            h5 Operación.
+            h5 Operación
           li 
             <i class="fas fa-circle fa-xs" style="color:#EBB294!important;"></i>
-            h5 Funcionamiento, entre otras. 
+            h5 Funcionamiento, entre otras
       .col-lg-10(data-aos="fade-right")
         p.mb-4 Luego de esto se procede a caracterizar los diferentes medios socio ecológicos (biótico, abiótico y socioeconómico), para así saber qué plan de manejo ambiental es el más adecuado usar en cada proyecto.
 

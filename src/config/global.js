@@ -397,6 +397,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Lizeth Daniela Reinoso',
+        cargo: 'Experta',
+        centro: 'Centro Agropecuario La Granja.',
+      },
+      {
+        nombre: 'Ana Vela Rodriguez Velásquez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial Regional Bogotá- Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica-Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Centro de Diseño y Metrología-Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
