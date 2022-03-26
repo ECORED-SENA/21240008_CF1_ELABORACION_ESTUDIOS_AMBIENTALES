@@ -35,13 +35,7 @@
         .tarjeta.BGIMG13.p-4
           LineaTiempoC.color-acento-contenido(text-small)(data-aos="fade-right")
             .row.align-items-center(titulo="1973")
-              .col-md-4
-                a.anexo.mb-4(href="http://www.suin-juriscol.gov.co/viewDocument.asp?id=1579056" target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/curso/tema2/img04.svg")
-                  .anexo__texto
-                    h5.mb-0 Enlace web
-              .col-md-8.mb-4.mb-md-0
+              .col-md-10.mb-4.mb-md-0
                 h3 LEY 23 DE 1973
                 p Se expide el código de los recursos naturales y protección al medio ambiente para todo el territorio colombiano.
                 p Artículos del 1 al 20.
@@ -54,19 +48,11 @@
                 h3 RESOLUCIÓN 1023 DE 2005
                 p Establece las guías ambientales como instrumento de autogestión y autorregulación.
             .row(titulo="2009")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="http://www.suin-juriscol.gov.co/viewDocument.asp?id=1677544" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
+              .col-md-10.mb-4.mb-md-0
                 h3 LEY 1333 DE 2009
                 p Se crea el procedimiento sancionatorio ambiental para Colombia.
             .row(titulo="2010")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="http://www.suin-juriscol.gov.co/viewDocument.asp?id=1878340" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
+              .col-md-10.mb-4.mb-md-0
                 h3 DECRETO 3678 DE 2010
                 p Define los criterios que deben tener en cuenta las autoridades para imponer sanciones tipo ambiental.
             .row(titulo="2010")
@@ -79,6 +65,14 @@
                 p Reglamenta el tema de las licencias ambientales en el sector de hidrocarburos, minero, construcción, energía nuclear, sector marítimo, etc.
             .row(titulo="2010")
               .col-auto
+                a.anexo.mb-4.mb-lg-0(href="http://portal.anla.gov.co/documentos/tramites_servicios/res_0415_010310.pdf" target="_blank")
+                  figure
+                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
+              .col-md-6.mb-4.mb-md-0
+                h3 RESOLUCIÓN 415 DE 2010
+                p Reglamenta el registro único de infractores ambientales, publicados en la ventanilla integral de tramites ambientales VITAL.
+            .row(titulo="2010")
+              .col-auto
                 a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_2064_2010.htm" target="_blank")
                   figure
                     img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
@@ -86,11 +80,7 @@
                 h3 RESOLUCIÓN 2064 DE 2010
                 p Establece las alternativas de disposición provisional y final de la fauna y flora terrestre y acuática después de ser decomisadas.
             .row(titulo="2011")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/1680917" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
+              .col-md-10.mb-4.mb-md-0
                 h3 LEY 1450 DE 2011
                 p Plan de desarrollo Nacional 2014-2018. - Artículos 223 al 226. Directrices para los estudios de impacto ambiental.
             .row(titulo="2011")
@@ -110,19 +100,11 @@
                 h3 RESOLUCIÓN 668 DE 2016
                 p Establece la obligatoriedad del uso racional de bolsas plásticas en almacenes de cadena y su posterior modificación con la resolución 2184 del 2019.
             .row(titulo="2017")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/30032607" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
+              .col-md-10.mb-4.mb-md-0
                 h3 LEY 1844 DE 2017
                 p Adopta el acuerdo de París del convenio marco de las naciones unidas sobre el cambio climático.
             .row(titulo="2017")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="http://www.suin-juriscol.gov.co/viewDocument.asp?id=30030677" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
+              .col-md-10.mb-4.mb-md-0
                 h3 DECRETO 870 DE 2017
                 p Crea el sistema de pago por servicios ambientales y otros incentivos a la conservación.
             .row(titulo="2018")
