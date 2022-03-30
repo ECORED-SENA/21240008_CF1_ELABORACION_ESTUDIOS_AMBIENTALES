@@ -38,7 +38,7 @@ export default {
         left: '-10%',
         top: '-223%',
         texto:
-          'Tiene como finalidad restituir los componentes del medio ambiente que hayan sido alterados, tratando de dejarlo en una calidad similar a la inicial',
+          'Tiene como finalidad restituir los componentes del medio ambiente que hayan sido alterados, tratando de dejarlo en una calidad similar a la inicial.',
       },
       {
         pos_x: '73%',

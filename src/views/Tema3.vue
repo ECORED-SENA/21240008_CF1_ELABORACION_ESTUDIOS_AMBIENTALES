@@ -122,7 +122,7 @@
               td(style="background-color: #F6F6F6") El estudio debe sustentar los diferentes análisis o conclusiones que se hagan sobre cada área de referencia, para esto se debe justificar por medio de documentos, información o de distintas fuentes que se tengan.
             tr
               th(style="background-color: #FFFFFF") Coherencia
-              td(style="background-color: #FFFFFF") Se deben dar las razones por las cuáles se definieron las áreas del proyecto, además de las zonas sensibles, zonas de manejo y los impactos ambientales.
+              td(style="background-color: #FFFFFF") Se deben dar las razones por las cuales se definieron las áreas del proyecto, además de las zonas sensibles, zonas de manejo y los impactos ambientales.
             tr
               th(style="background-color: #F6F6F6") Integralidad
               td(style="background-color: #F6F6F6") Interacciones de los diferentes componentes ambientales y actividades del proyecto.
@@ -137,7 +137,7 @@
               td(style="background-color: #FFFFFF") Los resultados específicos deben provenir de un análisis de componentes ambientales, donde se conozca cómo se dinamiza el entorno y los posibles efectos del proyecto.
             tr
               th(style="background-color: #F6F6F6") Resultados
-              td(style="background-color: #F6F6F6") Con base a los diferentes análisis propuestos, se dan los resultados y conclusiones de cada proyecto.
+              td(style="background-color: #F6F6F6") Con base en los diferentes análisis propuestos, se dan los resultados y conclusiones de cada proyecto.
 
       .row.justify-content-center.mb-4
         .col-lg-10.cajon.color-primario.p-4.mb-4
@@ -213,7 +213,7 @@
       
         .multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
           img.mb-4(src='@/assets/curso/tema3/img20.svg')
-          p Estos al igual que los anteriores son otros tipos de procedimientos para la evaluación de impactos ambientales, solo que son desarrollados por diferentes universidades, los cuales se mencionan a continuación:
+          p Estos, al igual que los anteriores, son otros tipos de procedimientos para la evaluación de impactos ambientales, solo que son desarrollados por diferentes universidades, los cuales se mencionan a continuación:
           .row.justify-content-center.mb-4
             .col.BGIMG10 
               .row.align-items-center
@@ -294,7 +294,7 @@ export default {
       },
       {
         texto:
-          '<b>Impacto ambiental: </b>cualquier alteración en el medio ambiental biótico, abiótico y socioeconómico, que sea adverso o beneficioso, total o parcial y que pueda ser atribuido al desarrollo de un proyecto, obra o actividad.',
+          '<b>Impacto ambiental: </b>cualquier alteración en el medio ambiente biótico, abiótico y socioeconómico, que sea adverso o beneficioso, total o parcial y que pueda ser atribuido al desarrollo de un proyecto, obra o actividad.',
         imagen: require('@/assets/curso/tema3/img16.png'),
       },
       {

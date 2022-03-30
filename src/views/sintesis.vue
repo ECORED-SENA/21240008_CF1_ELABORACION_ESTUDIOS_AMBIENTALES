@@ -16,9 +16,11 @@
       .col-lg-10
         p El objetivo principal de este componente formativo es instruir en la Identificación de los aspectos técnicos de los estudios ambientales según los requisitos legales. Por tal motivo, se describen los procedimientos a tener en cuenta y cómo determinar e identificar aspectos que generan impactos; por otro lado, se enseña a hacer un análisis del resultado de dicha valoración y así poder llegar a utilizar e implementar términos de referencia para la elaboración de un estudio ambiental del área en el que se esté trabajando, al tener las bases para construir dicho documento se podrá dar cumplimiento a la normatividad legal ambiental establecida, ver figura 8.  
 
-    
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-10.mb-4
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 8.
+      .col-lg-10
         figure
           img(src="@/assets/curso/sintesis.png", alt="alt")
 

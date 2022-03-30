@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Análisis de aspectos técnicos para realizar estudios ambientales',
     descripcionCurso:
-      'Los aspectos técnicos para realizar estudios ambientales son fundamentales en evaluación de impacto ambiental, ya que buscan analizar, describir y valorar el medio sobre el que se va realizar el proyecto, con el fin de prever y mitigar impactos ambientales sobre el área de influencia, los cuales son unos de los principales objetivos de un estudio ambiental.',
+      'Los aspectos técnicos para realizar estudios ambientales son fundamentales en evaluación de impacto ambiental, ya que buscan analizar, describir y valorar el medio sobre el que se va a realizar el proyecto, con el fin de prever y mitigar impactos ambientales sobre el área de influencia, los cuales son unos de los principales objetivos de un estudio ambiental.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },

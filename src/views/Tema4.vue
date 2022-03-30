@@ -18,14 +18,14 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.1 Legislación relacionada con estudios ambientales
 
-    p La legislación ambiental ha tenido un desarrollo progresivo e importante puesto que cada vez se da más importancia a lo que sucede con el medio ambiente; es por eso que las entidades regulatorias se han concientizado y han concientizado al ciudadano para establecer acciones de prevención y mitigación para dar solución a la problemática que se presenta. 
+    p La legislación ambiental ha tenido un desarrollo progresivo e importante, puesto que cada vez se da más importancia a lo que sucede con el medio ambiente; es por eso que las entidades regulatorias se han concientizado y han concientizado al ciudadano para establecer acciones de prevención y mitigación para dar solución a la problemática que se presenta. 
 
     .row.align-items-center.BGIMG12.mb-5(data-aos="fade-right")
       .col-lg-4
         figure(data-aos="flip-right")
           img(src='@/assets/curso/tema4/img04.svg')
       .col-lg-8.p-4
-        p Esto ha dado paso para la creación de otras normas que buscan la protección de los recursos naturales, mediante las cuales se han establecido parámetros permisibles para el sector industrial, donde se realiza la implementación de estudios ambientales y por lo que quien no cumpla los establecido en las normas ambientales será sancionado.
+        p Esto ha dado paso para la creación de otras normas que buscan la protección de los recursos naturales, mediante las cuales se han establecido parámetros permisibles para el sector industrial, donde se realiza la implementación de estudios ambientales y por lo que quien no cumpla lo establecido en las normas ambientales será sancionado.
         p Es importante resaltar que la normatividad ambiental constantemente se modifica o se actualiza, pero, siempre será en pro del medio ambiente y de la salud humana, buscando un bienestar común que permita seguir avanzando en el desarrollo industrial sin afectar los ecosistemas.
     
     p.text-center A continuación, se mencionan algunas leyes importantes sobre el impacto de los estudios ambientales que han marcado un hito histórico en Colombia:
@@ -39,7 +39,7 @@
                 h3 LEY 23 DE 1973
                 p Se expide el código de los recursos naturales y protección al medio ambiente para todo el territorio colombiano.
                 p Artículos del 1 al 20.
-            .row(titulo="2006")
+            .row(titulo="2005")
               .col-auto
                 a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_1023_2005.htm" target="_blank")
                   figure
@@ -64,13 +64,9 @@
                 h3 DECRETO 2820 DE 2010
                 p Reglamenta el tema de las licencias ambientales en el sector de hidrocarburos, minero, construcción, energía nuclear, sector marítimo, etc.
             .row(titulo="2010")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="http://portal.anla.gov.co/documentos/tramites_servicios/res_0415_010310.pdf" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
+              .col-md-10.mb-4.mb-md-0
                 h3 RESOLUCIÓN 415 DE 2010
-                p Reglamenta el registro único de infractores ambientales, publicados en la ventanilla integral de tramites ambientales VITAL.
+                p Reglamenta el registro único de infractores ambientales, publicados en la ventanilla integral de trámites ambientales VITAL.
             .row(titulo="2010")
               .col-auto
                 a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_2064_2010.htm" target="_blank")
@@ -124,14 +120,10 @@
                 h3 RESOLUCIÓN 1447 DE 2018
                 p Reglamenta el sistema de monitoreo, reporte y verificación de las acciones de mitigación a nivel nacional frente a los gases de efecto invernadero.
             .row(titulo="2018")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="http://portal.anla.gov.co/autorizacion-otorgar-derecho-al-uso-del-sello-ambiental-colombiano" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
+              .col-md-10.mb-4.mb-md-0
                 h3 RESOLUCIÓN 2210 DE 2018
                 p Reglamenta el uso del sello minero ambiental colombiano de naturaleza voluntaria. El cual debe ser avalado por ANLA mediante la resolución 2210 de 2018. 
-            .row(titulo="2018")
+            .row(titulo="2019")
               .col-auto
                 a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1561_2019.htm" target="_blank")
                   figure
@@ -168,7 +160,7 @@
     .row.align-items-center.BG11.mb-5.p-4
       .col.lg-10.p-4(data-aos="fade-right")
         .bloque-texto-c
-          i.fas.fa-quote-right
+          i.fas.fa-quote-left
           h5.mb-0 Los términos de referencia son lineamientos generales que la autoridad ambiental señala y pública para la elaboración y ejecución de los Estudios de Impacto Ambiental (EIA) y el Diagnóstico Ambiental de Alternativas DAA presentados ante la autoridad ambiental competente al momento de solicitar el otorgamiento de una licencia ambiental.
           span - -(ANLA, 2019).
 
@@ -228,7 +220,7 @@
           .col-lg-9.mb-4.mb-lg-0
             p Para profundizar en el aprendizaje sobre estudios ambientales le invito a revisar la página #[i web IISD. International Institute for Sustainable Development], en la cual puede encontrar algunos ejemplos en español sobre evaluación de impactos ambientales, esta información la puede conseguir en la sección del material complementario.
           .col-lg-3     
-            a.anexo.RA02.mb-4(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1561_2019.htm" target="_blank")
+            a.anexo.RA02.mb-4(href="https://www.iisd.org/learning/eia/es/examples/" target="_blank")
               .anexo__icono
                 img(src="@/assets/curso/tema2/img04.svg")
               .anexo__texto

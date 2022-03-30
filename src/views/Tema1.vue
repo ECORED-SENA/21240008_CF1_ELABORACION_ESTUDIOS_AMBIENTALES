@@ -51,11 +51,11 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img04.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5        
-              p Este tipo de sistema es aquel donde no interactúa, ni materia ni energía con el medio, este sistema es utilizado a grandes dimensiones.
+              p Este tipo de sistema es aquel donde no interactúa, ni materia, ni energía con el medio, este sistema es utilizado a grandes dimensiones.
 
     .row.justify-content-center.mb-4
       .col-lg-10
-        p.mb-4 Hablando de los sistemas ambientales es importante resaltar que el medio ambiente está formado por distintos componentes que se relacionan entre sí, como los que se muestran en el siguiente recurso de aprendizaje:
+        p.mb-4 Hablando de los sistemas ambientales, es importante resaltar que el medio ambiente está formado por distintos componentes que se relacionan entre sí, como los que se muestran en el siguiente recurso de aprendizaje:
 
         .row.mb-4
           .col-lg-3.col-sm-6.mb-sm-4
@@ -67,7 +67,7 @@
           .col-lg-3.col-sm-6.mb-sm-4
             img(src='@/assets/curso/tema1/img08.png')
           
-        p.mb-5 Por lo cual si alguno de estos componentes se modifica afecta directamente a los otros. El medio ambiente se divide en otros sistemas y de ellos subsistemas. Por tal motivo, a continuación en la figura 1, puede ver una figura que le muestra la organización del sistema:
+        p.mb-5 Por lo cual si alguno de estos componentes se modifica afecta directamente a los otros. El medio ambiente se divide en otros sistemas y de ellos subsistemas. Por tal motivo, a continuación en la figura 1, puede ver una imagen que le muestra la organización del sistema:
 
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Figura 1.

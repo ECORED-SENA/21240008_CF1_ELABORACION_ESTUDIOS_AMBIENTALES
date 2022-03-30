@@ -50,13 +50,13 @@
 
         .row.BG02.align-items-center
           .col-lg-9.mb-4.mb-lg-0.p-4
-            p.mb-0 Para profundizar en el tema sobre aspectos ambientales le invito a revisar en la sección de material complementario el Documento   ¨#[i Sistemas de gestión ambiental, requisitos con orientación para su uso]¨.
+            p.mb-0 Para profundizar en el tema sobre aspectos ambientales le invito a revisar en la sección de material complementario el Documento #[i "Sistemas de gestión ambiental, requisitos con orientación para su uso"].
           .col-lg-3
             a.anexo.RA01.mb-4(href="https://informacion.unad.edu.co/images/control_interno/NTC_ISO_14001_2015.pdf" target="_blank")
               .anexo__icono
                 img(src="@/assets/curso/tema2/img04.svg")
               .anexo__texto
-                h5.mb-0 Enlace web
+                h5.mb-1 Enlace web
     
     <br><br><br>
     .BGIMG05.p-4
@@ -110,7 +110,7 @@
       .col-md-8.BG02.p-4
         .row.align-items-center.justify-content-center
           .col-lg-9.mb-4.mb-lg-0.p-4
-            p.mb-0 Para profundizar en el tema le invito a revisar el video que se encuentra en la sección de materiales complementarios con el nombre: ¨#[i Qué son Aspectos e Impactos Ambientales]¨.
+            p.mb-0 Para profundizar en el tema le invito a revisar el video que se encuentra en la sección de materiales complementarios con el nombre: #[i "Qué son Aspectos e Impactos Ambientales"].
           .col-lg-3
             a.anexo.RA02.mb-4(href="https://www.youtube.com/watch?v=rE-m9ZYs0u8" target="_blank")
               .anexo__icono
@@ -168,10 +168,10 @@
                   <br><br>
                   .text-color-primario.p-4
                     <h4 style="color:#537E39 !important; font-weight: bold;">Sinérgico</h4>
-                    p Sabanalarga, población que fue desaparecida en el 2018, para la construcción de la represa HidroItuango en Antioquia
+                    p Sabanalarga, población que fue desaparecida en el 2018, para la construcción de la represa HidroItuango en Antioquia.
             .col-md-10
               h4.mb-4 Acumulativo o sinérgico 
-              p Los acumulativos son aquellos pequeños impactos que se van sumando en un mismo ecosistema por un determinado tiempo, y los sinérgicos son aquellos que se relacionan entre sí para generar un impacto mayor, por que se dan al mismo tiempo y en contextos muy cercanos, que afectan doblemente una comunidad o un territorio de manera positiva o negativa según el proyecto.  
+              p Los acumulativos son aquellos pequeños impactos que se van sumando en un mismo ecosistema por un determinado tiempo, y los sinérgicos son aquellos que se relacionan entre sí para generar un impacto mayor, porque se dan al mismo tiempo y en contextos muy cercanos, que afectan doblemente una comunidad o un territorio de manera positiva o negativa según el proyecto.  
 
           .row.justify-content-center.p-4
             .col-md-5.col-lg.mb-5.mb-lg-4
@@ -181,7 +181,7 @@
                   <br><br>
                   .text-color-primario.p-4
                     <h4 style="color:#537E39 !important; font-weight: bold;">Reversible</h4>
-                    p Rio Bogotá, cascada de San Antonio del Tequendama. 
+                    p Río Bogotá, cascada de San Antonio del Tequendama. 
                     br
             .col-md-5.col-lg.mb-5
               .tarjeta-avatar
@@ -213,11 +213,11 @@
                   <br><br>
                   .text-color-primario.p-4
                     <h4 style="color:#537E39 !important; font-weight: bold;">Potencial</h4>
-                    p Pérdida de playas en Colombia por el cambio climático lo cual produciría migraciones al interior del país.
+                    p Pérdida de playas en Colombia por el cambio climático, lo cual produciría migraciones al interior del país.
                     br
             .col-md-10
               h4.mb-4 Actual o potencial 
-              p Actual, como la palabra lo dice este indica que está pasando en ese mismo instante y el potencial habla de aquel impacto que puede pasar en el futuro si no se tienen medidas de prevención a tiempo.
+              p Actual, como la palabra lo dice, este indica que está pasando en ese mismo instante y el potencial habla de aquel impacto que puede pasar en el futuro si no se tienen medidas de prevención a tiempo.
 
           .row.justify-content-center.p-4
             .col-md-5.col-lg.mb-5.mb-lg-4
@@ -227,7 +227,7 @@
                   <br><br>
                   .text-color-primario.p-4
                     <h4 style="color:#537E39 !important; font-weight: bold;">Temporal</h4>
-                    p Dentro de los retos que Colombia tiene para el 2030, está la reforestación de zona naturales, como: el Amazonas, entre otras.
+                    p Dentro de los retos que Colombia tiene para el 2030, está la reforestación de zonas naturales, como: el Amazonas, entre otras.
                     br
             .col-md-5.col-lg.mb-5
               .tarjeta-avatar
@@ -335,7 +335,7 @@
       .col-lg-9.BG02.p-4.mb-5
         .row.align-items-center.justify-content-center
           .col-lg-9.mb-4.mb-lg-0.p-4
-            p.mb-0 Para profundizar en el tema le invito a revisar el documento que se encuentra en la sección de materiales complementarios con el siguiente nombre: #[i ¨PIGA, Instructivo diligenciamiento de la matriz de identificación de aspectos y valoración de impactos ambientales¨].
+            p.mb-0 Para profundizar en el tema le invito a revisar el documento que se encuentra en la sección de materiales complementarios con el siguiente nombre: #[i "PIGA, Instructivo diligenciamiento de la matriz de identificación de aspectos y valoración de impactos ambientales"].
           .col-lg-3
             a.anexo.RA02.mb-4(href="https://www.ambientebogota.gov.co/documents/10184/564058/Instructivo+para+el+diligenciamiento+de+la+matriz+de+Identificaci%C3%B3n+de+aspectos+y+valoraci%C3%B3n+de+impactos+ambientales.pdf/e5f7edbd-f5d8-4008-8bda-fb9328d8b98b" target="_blank")
               .anexo__icono
