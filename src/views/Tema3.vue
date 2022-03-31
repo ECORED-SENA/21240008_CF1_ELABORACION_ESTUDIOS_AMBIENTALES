@@ -34,15 +34,21 @@
               li 
                 <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
                 |  Por último, se debe contemplar la descripción:
-
-            .tarjeta--boton.color-secundario.p-1.mb-4
-              h3.mb-0.text-center.text-white De cantidades y tipos de residuos generados        
-            .tarjeta--boton.color-secundario.p-1.mb-4
-              h3.mb-0.text-center.text-white Vertimientos
-            .tarjeta--boton.color-secundario.p-1.mb-4
-              h3.mb-0.text-center.text-white Emisiones atmosféricas
-            .tarjeta--boton.color-secundario.p-1.mb-4
-              h3.mb-0.text-center.text-white Cualquier otro elemento que genere dicha actividad
+              li
+                ul
+                  li 
+                    i.lista-ul__vineta
+                    | De cantidades y tipos de residuos generados 
+                  li
+                    i.lista-ul__vineta
+                    | Vertimientos 
+                  li
+                    i.lista-ul__vineta
+                    | Emisiones atmosféricas
+                  li
+                    i.lista-ul__vineta
+                    | Cualquier otro elemento que genere dicha actividad
+            
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Antecedentes y definiciones
@@ -144,105 +150,82 @@
           p Es importante resaltar que las técnicas que se pueden utilizar para un estudio ambiental son varias, pero de acuerdo a la complejidad de la actividad, así se escogerá la más acorde, teniendo en cuenta el área de influencia y los resultados que se estén buscando, los cuales deben describirse de forma cuantitativa o cualitativa en el análisis de sus resultados.
 
 
-    #MapaGroup01.row.justify-content-center.p-4.mb-4
-      .col-lg-3.mb-4      
-        img(src='@/assets/curso/tema3/img19.svg')
-      .col-lg-8.mb-4
-        button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
-          .row
-            .col-lg-10.p-1
-              h5.mb-0 Sistemas de red y gráficos
-        button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
-          .row
-            .indicador--hover(v-if="indicadorImagenZoom")
-            .col-lg-10.p-1
-              h5.mb-0 Sistemas cartográficos  
-        button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='true' aria-controls='.multi-collapse3')
-          .row
-            .col-lg-10.p-1
-              h5.RA02.mb-0 Métodos basados en indicadores, índices e integración de la evaluación
-        button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='true' aria-controls='.multi-collapse4')
-          .row
-            .col-lg-10.p-1
-              h5.mb-0  Métodos cuantitativos
+    
       .col-lg-10.position-relative
-        .multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
-          img.mb-4(src='@/assets/curso/tema3/img20.svg')
-          p Los sistemas de red y gráficos son aquellos métodos que se utilizan de manera generalizada para evaluar los impactos ambientales en una actividad o proyecto, por lo que se indica en las filas de la matriz los factores ambientales y en las columnas se disponen las acciones del proyecto a evaluar, esto arrojará un resultado con el que se podrá llegar a diferentes alternativas de solución a aquello que se encuentre o de cómo resultado con estas metodologías, a continuación se mencionan las más usadas: 
-          .row.justify-content-center.mb-4
-            .col.BGIMG10
-              .row.align-items-center
-                .col-lg-8.p-4                 
-                  ul.lista-ul
-                    li 
-                      <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-                      p.mb-0 <span style="color:#537E39;"><b>Matrices causa-efecto (Leopold):</b></span> es una matriz, donde las filas simbolizan los distintos factores ambientales y las columnas todas las acciones que se hagan en un proyecto.
-                    li 
-                      <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-                      p.mb-0 <span style="color:#537E39;"><b>Listas de Chequeo:</b></span> estas listas ayudan al realizar los análisis previos, son sencillas de manejar y tienen una cobertura óptima en todas las áreas, se basan en factores o vectores que afecten al medio ambiente.
-                    li 
-                      <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-                      p.mb-0 <span style="color:#537E39;"><b>Sorensen:</b></span> representa de forma gráfica la relación causa-condición-efecto.
-                    li 
-                      <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-                      p.mb-0 <span style="color:#537E39;"><b>Bereano:</b></span> es importante para saber cuáles opciones son las óptimas en un proyecto, las alternativas van en las columnas y los factores en las filas para luego así relacionarlas entre sí.                     
-                .col-lg-4.p-0
-                  figure(data-aos="flip-left")
-                    img.RA03(src='@/assets/curso/tema3/img22.png')
+        TabsC.color-acento-botones
+          .py-3.py-md-4(titulo="Sistemas de red y gráficos")
+            p Los sistemas de red y gráficos son aquellos métodos que se utilizan de manera generalizada para evaluar los impactos ambientales en una actividad o proyecto, por lo que se indica en las filas de la matriz los factores ambientales y en las columnas se disponen las acciones del proyecto a evaluar, esto arrojará un resultado con el que se podrá llegar a diferentes alternativas de solución a aquello que se encuentre o de cómo resultado con estas metodologías, a continuación se mencionan las más usadas: 
+            .row.justify-content-center.mb-4
+              .col.BGIMG10
+                .row.align-items-center
+                  .col-lg-8.p-4                 
+                    ul.lista-ul
+                      li 
+                        <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
+                        p.mb-0 <span style="color:#537E39;"><b>Matrices causa-efecto (Leopold):</b></span> es una matriz, donde las filas simbolizan los distintos factores ambientales y las columnas todas las acciones que se hagan en un proyecto.
+                      li 
+                        <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
+                        p.mb-0 <span style="color:#537E39;"><b>Listas de Chequeo:</b></span> estas listas ayudan al realizar los análisis previos, son sencillas de manejar y tienen una cobertura óptima en todas las áreas, se basan en factores o vectores que afecten al medio ambiente.
+                      li 
+                        <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
+                        p.mb-0 <span style="color:#537E39;"><b>Sorensen:</b></span> representa de forma gráfica la relación causa-condición-efecto.
+                      li 
+                        <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
+                        p.mb-0 <span style="color:#537E39;"><b>Bereano:</b></span> es importante para saber cuáles opciones son las óptimas en un proyecto, las alternativas van en las columnas y los factores en las filas para luego así relacionarlas entre sí.                     
+                  .col-lg-4.p-0
+                    figure(data-aos="flip-left")
+                      img.RA03(src='@/assets/curso/tema3/img22.png')
       
-        .multi-collapse2.collapse(data-bs-parent='#MapaGroup01')
-          img.mb-4(src='@/assets/curso/tema3/img20.svg')
-          p La cartografía es aquella disciplina que se encarga de estudiar y producir los mapas, buscando resolver la problemática que se encuentra en las ciencias de la tierra; es decir, que los sistemas cartográficos son la representación gráfica que se da entre el orden de los puntos curvos de la tierra y la superficie plana de un mapa, utilizando como medida una escala que indica la relación entre el mapa y la realidad. A continuación, se mencionan algunos sistemas cartográficos:
-          .row.justify-content-center.mb-4
-            .col.BGIMG10
-              .row.align-items-center
-                .col-lg-8.p-4                  
-                  ul.lista-ul
-                    li 
-                      <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-                      p.mb-0 <span style="color:#537E39;"><b>Superposición de transparencias: </b></span> superponer mapas de impacto con un mapa de transparencia, donde se verán los diferentes grados de impacto previsibles por medio de diversos símbolos.
-                    li 
-                      <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-                      p.mb-0 <span style="color:#537E39;"><b>GIS: </b></span> son sistemas de información geográfica que usan la superposición de capas de información.
-                    li 
-                      <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-                      p.mb-0 <span style="color:#537E39;"><b>Mc Harg: </b></span> se identifican las características de un territorio, pero tiene como fin identificar de manera eficiente los recursos por medio de inventarios que son localizados por mapas con distintos factores.                    
-                .col-lg-4.p-0
-                  figure(data-aos="flip-left")
-                    img.RA04(src='@/assets/curso/tema3/img23.png')
+          .py-3.py-md-4(titulo="Sistemas cartográficos")
+            p La cartografía es aquella disciplina que se encarga de estudiar y producir los mapas, buscando resolver la problemática que se encuentra en las ciencias de la tierra; es decir, que los sistemas cartográficos son la representación gráfica que se da entre el orden de los puntos curvos de la tierra y la superficie plana de un mapa, utilizando como medida una escala que indica la relación entre el mapa y la realidad. A continuación, se mencionan algunos sistemas cartográficos:
+            .row.justify-content-center.mb-4
+              .col.BGIMG10
+                .row.align-items-center
+                  .col-lg-8.p-4                  
+                    ul.lista-ul
+                      li 
+                        <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
+                        p.mb-0 <span style="color:#537E39;"><b>Superposición de transparencias: </b></span> superponer mapas de impacto con un mapa de transparencia, donde se verán los diferentes grados de impacto previsibles por medio de diversos símbolos.
+                      li 
+                        <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
+                        p.mb-0 <span style="color:#537E39;"><b>GIS: </b></span> son sistemas de información geográfica que usan la superposición de capas de información.
+                      li 
+                        <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
+                        p.mb-0 <span style="color:#537E39;"><b>Mc Harg: </b></span> se identifican las características de un territorio, pero tiene como fin identificar de manera eficiente los recursos por medio de inventarios que son localizados por mapas con distintos factores.                    
+                  .col-lg-4.p-0
+                    figure(data-aos="flip-left")
+                      img.RA04(src='@/assets/curso/tema3/img23.png')
       
-        .multi-collapse3.collapse(data-bs-parent='#MapaGroup01')
-          img.mb-4(src='@/assets/curso/tema3/img20.svg')
-          p Estos, al igual que los anteriores, son otros tipos de procedimientos para la evaluación de impactos ambientales, solo que son desarrollados por diferentes universidades, los cuales se mencionan a continuación:
-          .row.justify-content-center.mb-4
-            .col.BGIMG10 
-              .row.align-items-center
-                .col-lg-8.p-4                  
-                  ul.lista-ul
-                    li 
-                      <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-                      p.mb-0 <span style="color:#537E39;"><b>Método de Holmes: </b></span> el orden de importancia juega un papel muy importante, clasificando así los valores ambientales, donde se compara cualitativamente cada variable y se escoge la mejor de acuerdo con su nivel de importancia.
-                    li 
-                      <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-                      p.mb-0 <span style="color:#537E39;"><b>Método de la Universidad de Georgia. </b></span>
-                    li 
-                      <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
-                      p.mb-0 <span style="color:#537E39;"><b>Método de Fisher-Davies. </b></span> 
-                .col-lg-4.p-0
-                  figure.RA04(data-aos="flip-left")
-                    img(src='@/assets/curso/tema3/img24.png')
+          .py-3.py-md-4(titulo="Métodos basados en indicadores, índices e integración de la evaluación")
+            p Estos, al igual que los anteriores, son otros tipos de procedimientos para la evaluación de impactos ambientales, solo que son desarrollados por diferentes universidades, los cuales se mencionan a continuación:
+            .row.justify-content-center.mb-4
+              .col.BGIMG10 
+                .row.align-items-center
+                  .col-lg-8.p-4                  
+                    ul.lista-ul
+                      li 
+                        <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
+                        p.mb-0 <span style="color:#537E39;"><b>Método de Holmes: </b></span> el orden de importancia juega un papel muy importante, clasificando así los valores ambientales, donde se compara cualitativamente cada variable y se escoge la mejor de acuerdo con su nivel de importancia.
+                      li 
+                        <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
+                        p.mb-0 <span style="color:#537E39;"><b>Método de la Universidad de Georgia. </b></span>
+                      li 
+                        <i class="fas fa-circle fa-xs" style="color:#A8BC8B!important;"></i>
+                        p.mb-0 <span style="color:#537E39;"><b>Método de Fisher-Davies. </b></span> 
+                  .col-lg-4.p-0
+                    figure.RA04(data-aos="flip-left")
+                      img(src='@/assets/curso/tema3/img24.png')
       
-        .multi-collapse4.collapse(data-bs-parent='#MapaGroup01')
-          img.mb-4(src='@/assets/curso/tema3/img20.svg')
-          p La mayoría de estos métodos se han creado para implementar en proyectos específicos, siendo así que en cada caso dependiendo de la labor se escogerá la metodología más apropiada, los métodos cuantitativos son aquellos que permiten medir indicadores y que dan un resultado en porcentaje, para así medir y evaluar el impacto que se está generando. A continuación, se menciona el método de un instituto que puede aportar gran conocimiento en el tema.
-          .row.justify-content-center.mb-4
-            .col.BGIMG10
-              .row.align-items-center
-                .col-lg-8.p-4                 
-                  p.mb-0 <span style="color:#537E39;"><b>Método del Instituto Batelle-Columbus: </b></span> planificación de proyectos a mediano y largo plazo, garantizando el menor impacto ambiental posible.
-                .col-lg-4.p-0
-                  figure(data-aos="flip-left")
-                    img.RA04(src='@/assets/curso/tema3/img25.png')
+          .py-3.py-md-4(titulo="Métodos cuantitativos")
+            p La mayoría de estos métodos se han creado para implementar en proyectos específicos, siendo así que en cada caso dependiendo de la labor se escogerá la metodología más apropiada, los métodos cuantitativos son aquellos que permiten medir indicadores y que dan un resultado en porcentaje, para así medir y evaluar el impacto que se está generando. A continuación, se menciona el método de un instituto que puede aportar gran conocimiento en el tema.
+            .row.justify-content-center.mb-4
+              .col.BGIMG10
+                .row.align-items-center
+                  .col-lg-8.p-4                 
+                    p.mb-0 <span style="color:#537E39;"><b>Método del Instituto Batelle-Columbus: </b></span> planificación de proyectos a mediano y largo plazo, garantizando el menor impacto ambiental posible.
+                  .col-lg-4.p-0
+                    figure(data-aos="flip-left")
+                      img.RA04(src='@/assets/curso/tema3/img25.png')
     separador
 </template>
 <script>

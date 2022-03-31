@@ -34,119 +34,149 @@
       .col-lg-8
         .tarjeta.BGIMG13.p-4
           LineaTiempoC.color-acento-contenido(text-small)(data-aos="fade-right")
-            .row.align-items-center(titulo="1973")
-              .col-md-10.mb-4.mb-md-0
-                h3 LEY 23 DE 1973
+            .row.justify-content-center(titulo="1973")
+              .col-md-10
+                h4 LEY 23 DE 1973
                 p Se expide el código de los recursos naturales y protección al medio ambiente para todo el territorio colombiano.
                 p Artículos del 1 al 20.
-            .row(titulo="2005")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_1023_2005.htm" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
-                h3 RESOLUCIÓN 1023 DE 2005
+            .row.justify-content-center(titulo="2005")
+              .col-md-10
+                h4 RESOLUCIÓN 1023 DE 2005
                 p Establece las guías ambientales como instrumento de autogestión y autorregulación.
-            .row(titulo="2009")
-              .col-md-10.mb-4.mb-md-0
-                h3 LEY 1333 DE 2009
+                .row
+                  .col-lg-6.col-sm-8
+                    a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_1023_2005.htm" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-link.svg")
+                      .anexo__texto
+                        p Ver resolución.
+            .row.justify-content-center(titulo="2009")
+              .col-md-10
+                h4 LEY 1333 DE 2009
                 p Se crea el procedimiento sancionatorio ambiental para Colombia.
-            .row(titulo="2010")
-              .col-md-10.mb-4.mb-md-0
-                h3 DECRETO 3678 DE 2010
+            .row.justify-content-center(titulo="2010")
+              .col-md-10
+                h4 DECRETO 3678 DE 2010
                 p Define los criterios que deben tener en cuenta las autoridades para imponer sanciones tipo ambiental.
-            .row(titulo="2010")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="https://www.ani.gov.co/normatividad-inco/decreto-no-2820-de-2010-283" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
-                h3 DECRETO 2820 DE 2010
+            .row.justify-content-center(titulo="2010")
+              .col-md-10
+                h4 DECRETO 2820 DE 2010
                 p Reglamenta el tema de las licencias ambientales en el sector de hidrocarburos, minero, construcción, energía nuclear, sector marítimo, etc.
-            .row(titulo="2010")
-              .col-md-10.mb-4.mb-md-0
-                h3 RESOLUCIÓN 415 DE 2010
+                .row
+                  .col-lg-6.col-sm-8
+                    a.anexo.mb-4.mb-lg-0(href="https://www.ani.gov.co/normatividad-inco/decreto-no-2820-de-2010-283" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-link.svg")
+                      .anexo__texto
+                        p Ver decreto.            
+            .row.justify-content-center(titulo="2010")
+              .col-md-10
+                h4 RESOLUCIÓN 415 DE 2010
                 p Reglamenta el registro único de infractores ambientales, publicados en la ventanilla integral de trámites ambientales VITAL.
-            .row(titulo="2010")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_2064_2010.htm" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
-                h3 RESOLUCIÓN 2064 DE 2010
+            .row.justify-content-center(titulo="2010")
+              .col-md-10
+                h4 RESOLUCIÓN 2064 DE 2010
                 p Establece las alternativas de disposición provisional y final de la fauna y flora terrestre y acuática después de ser decomisadas.
-            .row(titulo="2011")
-              .col-md-10.mb-4.mb-md-0
-                h3 LEY 1450 DE 2011
+                .row
+                  .col-lg-6.col-sm-8
+                    a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_2064_2010.htm" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-link.svg")
+                      .anexo__texto
+                        p Ver resolución.
+            .row.justify-content-center(titulo="2011")
+              .col-md-10
+                h4 LEY 1450 DE 2011
                 p Plan de desarrollo Nacional 2014-2018. - Artículos 223 al 226. Directrices para los estudios de impacto ambiental.
-            .row(titulo="2011")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="https://normograma.info/findeter/docs/resolucion_anla_0260_2011.htm" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
-                h3 RESOLUCIÓN 260 DE 2011
+            .row.justify-content-center(titulo="2011")
+              .col-md-10
+                h4 RESOLUCIÓN 260 DE 2011
                 p Fija las tarifas para el cobro de los servicios de evaluación y seguimiento de las licencias ambientales de Colombia.
-            .row(titulo="2016")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="http://www.andi.com.co/Uploads/res._2184_-_2019_por_la_cual_se_modifica_la_resolucion_668_de_2016_sobre_uso_racional_de_bolsas_plasticas_y_se_adoptan_otras_disposiciones_1.pdf" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
-                h3 RESOLUCIÓN 668 DE 2016
+                .row
+                  .col-lg-6.col-sm-8
+                    a.anexo.mb-4.mb-lg-0(href="https://normograma.info/findeter/docs/resolucion_anla_0260_2011.htm" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-link.svg")
+                      .anexo__texto
+                        p Ver resolución.
+            .row.justify-content-center(titulo="2016")                
+              .col-md-10
+                h4 RESOLUCIÓN 668 DE 2016
                 p Establece la obligatoriedad del uso racional de bolsas plásticas en almacenes de cadena y su posterior modificación con la resolución 2184 del 2019.
-            .row(titulo="2017")
-              .col-md-10.mb-4.mb-md-0
-                h3 LEY 1844 DE 2017
+                .row
+                  .col-lg-6.col-sm-8
+                    a.anexo.mb-4.mb-lg-0(href="http://www.andi.com.co/Uploads/res._2184_-_2019_por_la_cual_se_modifica_la_resolucion_668_de_2016_sobre_uso_racional_de_bolsas_plasticas_y_se_adoptan_otras_disposiciones_1.pdf" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-link.svg")
+                      .anexo__texto
+                        p Ver resolución.
+            .row.justify-content-center(titulo="2017")
+              .col-md-10
+                h4 LEY 1844 DE 2017
                 p Adopta el acuerdo de París del convenio marco de las naciones unidas sobre el cambio climático.
-            .row(titulo="2017")
-              .col-md-10.mb-4.mb-md-0
-                h3 DECRETO 870 DE 2017
+            .row.justify-content-center(titulo="2017")
+              .col-md-10
+                h4 DECRETO 870 DE 2017
                 p Crea el sistema de pago por servicios ambientales y otros incentivos a la conservación.
-            .row(titulo="2018")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="https://funcionpublica.gov.co/eva/gestornormativo/norma.php?i=87765" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
-                h3 LEY 1931 DE 2018
+            .row.justify-content-center(titulo="2018")
+              .col-md-10
+                h4 LEY 1931 DE 2018
                 p Define las directrices para la gestión del cambio climático de las personas públicas y privadas.
-            .row(titulo="2018")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1447_2018.htm" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
-                h3 RESOLUCIÓN 1447 DE 2018
+                .row
+                  .col-lg-6.col-sm-8
+                    a.anexo.mb-4.mb-lg-0(href="https://funcionpublica.gov.co/eva/gestornormativo/norma.php?i=87765" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-link.svg")
+                      .anexo__texto
+                        p Ver ley.
+            .row.justify-content-center(titulo="2018")
+              .col-md-10
+                h4 RESOLUCIÓN 1447 DE 2018
                 p Reglamenta el sistema de monitoreo, reporte y verificación de las acciones de mitigación a nivel nacional frente a los gases de efecto invernadero.
-            .row(titulo="2018")
-              .col-md-10.mb-4.mb-md-0
-                h3 RESOLUCIÓN 2210 DE 2018
+                .row
+                  .col-lg-6.col-sm-8
+                    a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1447_2018.htm" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-link.svg")
+                      .anexo__texto
+                        p Ver resolución.
+            .row.justify-content-center(titulo="2018")
+              .col-md-10
+                h4 RESOLUCIÓN 2210 DE 2018
                 p Reglamenta el uso del sello minero ambiental colombiano de naturaleza voluntaria. El cual debe ser avalado por ANLA mediante la resolución 2210 de 2018. 
-            .row(titulo="2019")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1561_2019.htm" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
-                h3 RESOLUCIÓN 1561 DE 2019
+            .row.justify-content-center(titulo="2019")
+              .col-md-10
+                h4 RESOLUCIÓN 1561 DE 2019
                 p Establece términos de referencia para elaborar estudios de impacto ambiental, para poder tramitar licencias ambientales de los proyectos de explotación de materiales de construcción.
-            .row(titulo="2018-2022")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="https://www.dnp.gov.co/DNPN/Plan-Nacional-de-Desarrollo/Paginas/Pactos-Transversales/Pacto-por-la-sostenibilidad/Sostenibilidad.aspx" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
-                h3 PLAN DE DESARROLLO
+                .row
+                  .col-lg-6.col-sm-8
+                    a.anexo.mb-4.mb-lg-0(href="https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambienteds_1561_2019.htm" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-link.svg")
+                      .anexo__texto
+                        p Ver resolución.
+            .row.justify-content-center(titulo="2018-2022")
+              .col-md-10
+                h4 PLAN DE DESARROLLO
                 p El Plan de Desarrollo del 2018 al 2022, establece unos acuerdos o pactos que son los ejes del mismo, entre ellos esta: el Pacto por la Sostenibilidad.
-            .row(titulo="2030")
-              .col-auto
-                a.anexo.mb-4.mb-lg-0(href="https://ods.gov.co/es" target="_blank")
-                  figure
-                    img(src="@/assets/curso/tema4/img07.svg", style="width:150px").m-auto
-              .col-md-6.mb-4.mb-md-0
-                h3 COLOMBIA Y LA AGENDA 2030
+                .row
+                  .col-lg-6.col-sm-8
+                    a.anexo.mb-4.mb-lg-0(href="https://www.dnp.gov.co/DNPN/Plan-Nacional-de-Desarrollo/Paginas/Pactos-Transversales/Pacto-por-la-sostenibilidad/Sostenibilidad.aspx" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-link.svg")
+                      .anexo__texto
+                        p Ver anexo.
+            .row.justify-content-center(titulo="2030")
+              .col-md-10
+                h4 COLOMBIA Y LA AGENDA 2030
                 p Colombia como país miembro de la UNESCO, debe implementar los Objetivos de Desarrollo Sostenible, entre los cuales hay varios que tienen que ver con el medio ambiente.
+                .row
+                  .col-lg-6.col-sm-8
+                    a.anexo.mb-4.mb-lg-0(href="https://ods.gov.co/es" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-link.svg")
+                      .anexo__texto
+                        p Ver anexo.
 
       .col-lg-2
         figure(data-aos="flip-right")
@@ -223,12 +253,11 @@
           .col-lg-9.mb-4.mb-lg-0
             p Para profundizar en el aprendizaje sobre estudios ambientales le invito a revisar la página #[i web IISD. International Institute for Sustainable Development], en la cual puede encontrar algunos ejemplos en español sobre evaluación de impactos ambientales, esta información la puede conseguir en la sección del material complementario.
           .col-lg-3     
-            a.anexo.RA02.mb-4(href="https://www.iisd.org/learning/eia/es/examples/" target="_blank")
+            a.anexo.mb-4(href="https://www.iisd.org/learning/eia/es/examples/" target="_blank")
               .anexo__icono
-                figure.RA05
-                  img(src="@/assets/curso/tema2/img04.svg")
+                img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                h5.mb-0 Enlace web
+                p Ver anexo.
  
     separador
 </template>

@@ -7,13 +7,15 @@
       .titulo-principal__numero
         span.text-white 2
       h1 Procesos de identificación y calificación
-    
+
+  .container.tarjeta.tarjeta--blanca  
     .row.BGIMG04.p-4.justify-content-center.mb-4
       .col-lg-8
         p.mb-4 La identificación inicia con un ejercicio de análisis interpretativo de la situación ambiental, donde se mencionan los procesos de la actividad o proyecto que se esté ejecutando, sean bienes o servicios y que están incorporados a los aspectos ambientales positivos y negativos; después de tener este análisis de identificación se procede a realizar dicha calificación de las variables que permiten cuantificar sus consecuencias en el ambiente y el cumplimiento normativo. Siendo así, a continuación, se podrá encontrar una serie de conceptos que ayudarán a asociar la información de manera práctica:
         figure(data-aos="flip-up")
           img(src='@/assets/curso/tema2/img01.png')
 
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1	Definición de los aspectos ambientales 
@@ -51,13 +53,12 @@
         .row.BG02.align-items-center
           .col-lg-9.mb-4.mb-lg-0.p-4
             p.mb-0 Para profundizar en el tema sobre aspectos ambientales le invito a revisar en la sección de material complementario el Documento #[i "Sistemas de gestión ambiental, requisitos con orientación para su uso"].
-          .col-lg-3
-            a.anexo.RA01.mb-4(href="https://informacion.unad.edu.co/images/control_interno/NTC_ISO_14001_2015.pdf" target="_blank")
+          .col-lg-3.p-0
+            a.anexo.mb-4(href="https://informacion.unad.edu.co/images/control_interno/NTC_ISO_14001_2015.pdf" target="_blank")
               .anexo__icono
-                figure.RA05
-                  img(src="@/assets/curso/tema2/img04.svg")
+                img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                h5.mb-1 Enlace web
+                p Enlace web.
     
     <br><br><br>
     .BGIMG05.p-4
@@ -112,13 +113,12 @@
         .row.align-items-center.justify-content-center
           .col-lg-9.mb-4.mb-lg-0.p-4
             p.mb-0 Para profundizar en el tema le invito a revisar el video que se encuentra en la sección de materiales complementarios con el nombre: #[i "Qué son Aspectos e Impactos Ambientales"].
-          .col-lg-3
-            a.anexo.RA02.mb-4(href="https://www.youtube.com/watch?v=rE-m9ZYs0u8" target="_blank")
+          .col-lg-3.p-0
+            a.anexo.mb-4(href="https://www.youtube.com/watch?v=rE-m9ZYs0u8" target="_blank")
               .anexo__icono
-                figure.RA05
-                  img(src="@/assets/curso/tema2/img04.svg")
+                img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                h5.mb-0 Enlace web
+                p Enlace web.
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -338,13 +338,12 @@
         .row.align-items-center.justify-content-center
           .col-lg-9.mb-4.mb-lg-0.p-4
             p.mb-0 Para profundizar en el tema le invito a revisar el documento que se encuentra en la sección de materiales complementarios con el siguiente nombre: #[i "PIGA, Instructivo diligenciamiento de la matriz de identificación de aspectos y valoración de impactos ambientales"].
-          .col-lg-3
-            a.anexo.RA02.mb-4(href="https://www.ambientebogota.gov.co/documents/10184/564058/Instructivo+para+el+diligenciamiento+de+la+matriz+de+Identificaci%C3%B3n+de+aspectos+y+valoraci%C3%B3n+de+impactos+ambientales.pdf/e5f7edbd-f5d8-4008-8bda-fb9328d8b98b" target="_blank")
+          .col-lg-3.p-0
+            a.anexo.mb-4(href="https://www.ambientebogota.gov.co/documents/10184/564058/Instructivo+para+el+diligenciamiento+de+la+matriz+de+Identificaci%C3%B3n+de+aspectos+y+valoraci%C3%B3n+de+impactos+ambientales.pdf/e5f7edbd-f5d8-4008-8bda-fb9328d8b98b" target="_blank")
               .anexo__icono
-                figure.RA05
-                  img(src="@/assets/curso/tema2/img04.svg")
+                img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                h5.mb-0 Enlace web
+                p Enlace web.
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -388,32 +387,21 @@
                
     BotonesB.mb-5
 
-    p.text-center La finalidad de estas medidas es proteger y conservar los componentes que estén presentes en medio de la actividad, como lo son:  
+    p.mb-4.text-center La finalidad de estas medidas es proteger y conservar los componentes que estén presentes en medio de la actividad, como lo son:  
 
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-4
-        .tarjeta.tarjeta-slide.arriba.BG10(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-3
-              h2.text-center  Componentes físicos
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img26.svg')})`}")
+      .col-lg-10
+        .row.justify-content-between
+          .col-lg-1
+          .col-lg-3.BGIMG20.p-3.mb-4
+            h4.text-center  Componentes físicos
+              
+          .col-lg-3.BGIMG20.p-3.mb-4
+            h4.text-center Biológicos             
 
-      .col-lg-4.mb-4
-        .tarjeta.tarjeta-slide.arriba.BG10(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img26.svg')})`}")
-            .tarjeta-slide__contenido.p-3
-              h2.text-center Biológicos             
-
-      .col-lg-4.mb-4
-        .tarjeta.tarjeta-slide.arriba.BG10(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img26.svg')})`}")
-            .tarjeta-slide__contenido.p-3
-              h2.text-center Socioeconómicos              
+          .col-lg-3.BGIMG20.p-3.mb-4
+            h4.text-center Socioeconómicos 
+          .col-lg-1             
 
     separador
 </template>
