@@ -195,7 +195,7 @@ export default {
     {
       referencia:
         'Convención de la ONU sobre diversidad biológica. (2016). Uso de Términos.',
-      link: 'www.cbd.int/convention/articles.shtml?a=cbd-02',
+      link: 'https://www.cbd.int/convention/articles.shtml?a=cbd-02',
     },
     {
       referencia:
