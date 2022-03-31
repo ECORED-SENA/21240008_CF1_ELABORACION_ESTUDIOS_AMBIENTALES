@@ -179,14 +179,12 @@ export default {
     {
       referencia:
         'ANLA. (s.f.). Autorización para otorgar el derecho de uso del Sello Ambiental Colombiano. La cual debe ser validada por ANLA, según normatividad Resolución 2210 de 2018.',
-      link:
-        'http://portal.anla.gov.co/autorizacion-otorgar-derecho-al-uso-del-sello-ambiental-colombiano',
     },
     {
       referencia:
         'Camacho V. y Ruiz L. (2011). Marco conceptual y clasificación de los servicios ecosistémicos. Revista Biociencias:',
       link:
-        ':http://revistabiociencias.uan.mx/index.php/BIOCIENCIAS/article/view/19/17',
+        'http://revistabiociencias.uan.mx/index.php/BIOCIENCIAS/article/view/19/17',
     },
     {
       referencia:
@@ -206,7 +204,7 @@ export default {
     },
     {
       referencia:
-        'Decreto 2028 de 2010. [Agencia Nacional de Infraestructura]. Por el cual se reglamenta el título VIII de la Ley 99 de 1993 sobre licencias ambientales.',
+        'Decreto 2820 de 2010. [Agencia Nacional de Infraestructura]. Por el cual se reglamenta el título VIII de la Ley 99 de 1993 sobre licencias ambientales.',
       link:
         'https://www.ani.gov.co/normatividad-inco/decreto-no-2820-de-2010-283',
     },
@@ -299,8 +297,6 @@ export default {
     {
       referencia:
         'Resolución 415 de 2010. [Ministerio de Ambiente, Vivienda y Desarrollo Territorial]. Por la cual se reglamenta el Registro Único de Infractores Ambientales – RUIA- y se toman otras determinaciones.',
-      link:
-        'http://portal.anla.gov.co/documentos/tramites_servicios/res_0415_010310.pdf',
     },
     {
       referencia:
@@ -310,13 +306,13 @@ export default {
     },
     {
       referencia:
-        'Resolución 1023 del 2005. [Ministerio de Medio Ambiente Vivienda y Desarrollo Territorial]. Por la cual se adoptan guías ambientales como instrumento de autogestión y autorregulación.',
+        'Resolución 1023 del 2005. [Ministerio de Medio Ambiente, Vivienda y Desarrollo Territorial]. Por la cual se adoptan guías ambientales como instrumento de autogestión y autorregulación.',
       link:
         'https://www.icbf.gov.co/cargues/avance/docs/resolucion_minambientevdt_1023_2005.htm ',
     },
     {
       referencia:
-        'Secretaria de Ambiente. (2013). PIGA, Instructivo diligenciamiento de la matriz de identificación de aspectos y valoración de impactos ambientales.',
+        'Secretaría de Ambiente. (2013). PIGA, Instructivo diligenciamiento de la matriz de identificación de aspectos y valoración de impactos ambientales.',
       link:
         'https://www.ambientebogota.gov.co/documents/10184/564058/Instructivo+para+el+diligenciamiento+de+la+matriz+de+Identificaci%C3%B3n+de+aspectos+y+valoraci%C3%B3n+de+impactos+ambientales.pdf/e5f7edbd-f5d8-4008-8bda-fb9328d8b98b',
     },
@@ -370,7 +366,7 @@ export default {
     },
     {
       texto:
-        'Secretaria de Ambiente. (2013). PIGA, Instructivo diligenciamiento de la matriz de identificación de aspectos y valoración de impactos ambientales',
+        'Secretaría de Ambiente. (2013). PIGA, Instructivo diligenciamiento de la matriz de identificación de aspectos y valoración de impactos ambientales',
       tipo: 'PDF',
       link:
         'https://www.ambientebogota.gov.co/documents/10184/564058/Instructivo+para+el+diligenciamiento+de+la+matriz+de+Identificaci%C3%B3n+de+aspectos+y+valoraci%C3%B3n+de+impactos+ambientales.pdf/e5f7edbd-f5d8-4008-8bda-fb9328d8b98b',
@@ -399,7 +395,7 @@ export default {
       },
       {
         nombre: 'Lizeth Daniela Reinoso',
-        cargo: 'Experta',
+        cargo: 'Experta temática',
         centro: 'Centro Agropecuario La Granja.',
       },
       {

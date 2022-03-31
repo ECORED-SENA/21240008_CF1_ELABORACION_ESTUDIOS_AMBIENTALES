@@ -159,10 +159,13 @@
 
     .row.align-items-center.BG11.mb-5.p-4
       .col.lg-10.p-4(data-aos="fade-right")
-        .bloque-texto-c
-          i.fas.fa-quote-left
-          h5.mb-0 Los términos de referencia son lineamientos generales que la autoridad ambiental señala y pública para la elaboración y ejecución de los Estudios de Impacto Ambiental (EIA) y el Diagnóstico Ambiental de Alternativas DAA presentados ante la autoridad ambiental competente al momento de solicitar el otorgamiento de una licencia ambiental.
-          span - -(ANLA, 2019).
+        .bloque-texto-d.color-primario.p-4
+          .bloque-texto-d__texto.mb-2
+            i.fas.fa-quote-left
+            h3.text-regular.mb-0 Los términos de referencia son lineamientos generales que la autoridad ambiental señala y pública para la elaboración y ejecución de los Estudios de Impacto Ambiental (EIA) y el Diagnóstico Ambiental de Alternativas DAA presentados ante la autoridad ambiental competente al momento de solicitar el otorgamiento de una licencia ambiental.
+            i.fas.fa-quote-right.p-0
+          .bloque-texto-d__autor 
+            .h5.mb-0 - -(ANLA, 2019).
 
     p.mb-4 Cabe resaltar que cada acto administrativo es una herramienta para cada proyecto, la cual facilita la elaboración del estudio de impacto ambiental; es decir, sirve como guía para la preparación de este, de igual manera estos pueden o no tener información adicional que se considere relevante para cada autoridad ambiental respectiva.
     br
@@ -222,7 +225,8 @@
           .col-lg-3     
             a.anexo.RA02.mb-4(href="https://www.iisd.org/learning/eia/es/examples/" target="_blank")
               .anexo__icono
-                img(src="@/assets/curso/tema2/img04.svg")
+                figure.RA05
+                  img(src="@/assets/curso/tema2/img04.svg")
               .anexo__texto
                 h5.mb-0 Enlace web
  

@@ -54,7 +54,8 @@
           .col-lg-3
             a.anexo.RA01.mb-4(href="https://informacion.unad.edu.co/images/control_interno/NTC_ISO_14001_2015.pdf" target="_blank")
               .anexo__icono
-                img(src="@/assets/curso/tema2/img04.svg")
+                figure.RA05
+                  img(src="@/assets/curso/tema2/img04.svg")
               .anexo__texto
                 h5.mb-1 Enlace web
     
@@ -114,7 +115,8 @@
           .col-lg-3
             a.anexo.RA02.mb-4(href="https://www.youtube.com/watch?v=rE-m9ZYs0u8" target="_blank")
               .anexo__icono
-                img(src="@/assets/curso/tema2/img04.svg")
+                figure.RA05
+                  img(src="@/assets/curso/tema2/img04.svg")
               .anexo__texto
                 h5.mb-0 Enlace web
 
@@ -339,7 +341,8 @@
           .col-lg-3
             a.anexo.RA02.mb-4(href="https://www.ambientebogota.gov.co/documents/10184/564058/Instructivo+para+el+diligenciamiento+de+la+matriz+de+Identificaci%C3%B3n+de+aspectos+y+valoraci%C3%B3n+de+impactos+ambientales.pdf/e5f7edbd-f5d8-4008-8bda-fb9328d8b98b" target="_blank")
               .anexo__icono
-                img(src="@/assets/curso/tema2/img04.svg")
+                figure.RA05
+                  img(src="@/assets/curso/tema2/img04.svg")
               .anexo__texto
                 h5.mb-0 Enlace web
 

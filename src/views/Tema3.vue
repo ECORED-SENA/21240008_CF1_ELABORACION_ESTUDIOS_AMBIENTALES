@@ -150,20 +150,20 @@
       .col-lg-8.mb-4
         button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse1' aria-expanded='true' aria-controls='.multi-collapse1')
           .row
-            .col-lg-10
+            .col-lg-10.p-1
               h5.mb-0 Sistemas de red y gráficos
         button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse2' aria-expanded='true' aria-controls='.multi-collapse2')
           .row
             .indicador--hover(v-if="indicadorImagenZoom")
-            .col-lg-10
+            .col-lg-10.p-1
               h5.mb-0 Sistemas cartográficos  
         button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse3' aria-expanded='true' aria-controls='.multi-collapse3')
           .row
-            .col-lg-10
-              h5.mb-0 Métodos basados en indicadores, índices e integración de la evaluación
+            .col-lg-10.p-1
+              h5.RA02.mb-0 Métodos basados en indicadores, índices e integración de la evaluación
         button.mb-4.buttom.color-primario.p-3.w-100.position-relative(data-bs-toggle='collapse' data-bs-target='.multi-collapse4' aria-expanded='true' aria-controls='.multi-collapse4')
           .row
-            .col-lg-10
+            .col-lg-10.p-1
               h5.mb-0  Métodos cuantitativos
       .col-lg-10.position-relative
         .multi-collapse1.collapse.show(data-bs-parent='#MapaGroup01')
